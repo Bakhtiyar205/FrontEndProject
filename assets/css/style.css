@@ -432,4 +432,161 @@ header .navbar-background li:hover a:hover {
   height: 100%;
   width: 100%;
 }
+
+#discount-box a {
+  text-decoration: none;
+}
+
+#discount-box .clock-product-progress {
+  width: 30vw;
+  height: 95vh;
+  padding: 10px 8px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+#discount-box .clock-product-progress .clock {
+  position: relative !important;
+  padding-top: 0px;
+  margin-left: -120px;
+  height: 100px;
+  width: 800px;
+  zoom: 0.8;
+  transform: scale(0.54);
+  -ms-transform: scale(0.54);
+  -webkit-transform: scale(0.54);
+  -o-transform: scale(0.54);
+  -moz-transform: scale(0.54);
+}
+
+#discount-box .product-clock {
+  position: relative;
+}
+
+#discount-box .product-clock p {
+  color: #c5c5c5;
+  margin-left: 60px;
+}
+
+#discount-box .product-clock img {
+  width: 90%;
+  height: 80%;
+}
+
+#discount-box .product-clock .discount-product-percentage {
+  position: absolute;
+  top: 7%;
+  left: 8%;
+  font-size: 40px;
+  background-color: red;
+  border-radius: 50%;
+  padding: 10px;
+  color: white;
+}
+
+#discount-box .progress-aviability .discount-price {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#discount-box .progress-aviability h4 {
+  color: #233A95;
+}
+
+.cards-box a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.cards-box a img {
+  height: 60%;
+}
+
+.card-box {
+  position: relative;
+  border: 1px solid rgba(184, 184, 184, 0.125);
+}
+
+.card-box img {
+  width: 100%;
+  height: 80%;
+}
+
+.card-box .add-card {
+  height: 70%;
+  opacity: 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  text-align: center;
+  background-color: #fff;
+  border-left: 1px solid rgba(184, 184, 184, 0.125);
+  border-bottom: 1px solid rgba(184, 184, 184, 0.125);
+  border-right: 1px solid rgba(184, 184, 184, 0.125);
+  border-radius: 5px;
+}
+
+.card-box .add-card a {
+  margin-top: -20px;
+  display: inline-block;
+  width: 70%;
+  border-radius: 50px;
+  background-color: #233a95;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.card-box .heart-wide {
+  position: absolute;
+  top: 15px;
+  left: 80%;
+  opacity: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.card-box .heart-wide .wider-screen {
+  padding: 2px 4px;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-box .heart-wide .heart {
+  padding: 2px 4px;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+}
+
+.card-box:hover .add-card {
+  opacity: 1;
+  z-index: 2;
+}
+
+.card-box:hover .heart-wide {
+  opacity: 1;
+  -webkit-transform: translateX(70%);
+          transform: translateX(70%);
+}
+
+.card-box .text-cards {
+  position: absolute;
+  top: 15px;
+  left: 5%;
+  background-color: #00e1ff;
+  color: #fff;
+  padding: 0px 5px;
+  height: 7%;
+  border-radius: 5px;
+}
+
+.line-through {
+  text-decoration: line-through;
+  color: #c5c5c5;
+  font-size: 80%;
+}
 /*# sourceMappingURL=style.css.map */

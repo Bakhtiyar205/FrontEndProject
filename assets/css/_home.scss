@@ -265,7 +265,7 @@ header {
   .owl-dot {
     display: none !important;
   }
-  .owl-carusel {
+  .owl-carusel-store {
     position: relative;
     .owl-nav {
       position: absolute;
@@ -295,6 +295,10 @@ header {
   background-color: white !important;
   width: 40px !important;
   border-radius: 50% !important;
+  &:hover{
+    opacity: 0.8;
+    color:#333;
+  };
   span {
     display: inline-block;
     margin-top: -10px;
@@ -312,6 +316,10 @@ header {
   background-color: white !important;
   width: 40px !important;
   border-radius: 50% !important;
+  &:hover{
+    opacity: 0.8;
+    color:#333;
+  };
   span {
     display: inline-block;
     margin-top: -10px;
@@ -548,6 +556,164 @@ header {
   }
 }
 
+// Section Ice Cream
+#cookie-cream{
+  a{
+    text-decoration: none;
+    color: #333;
+    &:hover{
+      color: #333;
+    }
+  }
+
+  .col-lg-cookie{
+    position: relative;
+    width: 50.4%;
+    border-radius: 5px;
+    margin-left: -1%;
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+    }
+    .cookie-text{
+      position: absolute;
+      top: 35%;
+      left: 10%;
+      p{color: #233a95;};
+      h5{color: #233a95;};
+      h6{color: red;}
+    }
+    button{
+      border-radius: 20px;
+      outline: none;
+      border: none;
+      background-color: #233A95;
+      color: #fff;
+      padding: 5px 10px;
+    }
+  }
+}
+// Carusel Products
+#carusel-products{
+  .owl-dot{
+    display: none;
+  }
+  .owl-prev,
+  .owl-next{
+    border: 1px solid rgb(199, 199, 199);
+    &:hover{
+      opacity: 0.8;
+      color: #333
+    }
+    
+  }
+  .owl-prev{margin-left: -1.5% !important;}
+  .owl-next{margin-right: -1.3% !important;}
+  .view-all{
+    p{
+      color: #c7c7c7;
+    }
+    a{
+      color: #c7c7c7;
+      text-decoration: none;
+    }
+    button{
+      margin-top: 20%;
+      background-color: #fff;
+      outline: none;
+      border: 1px solid #c7c7c7;
+      border-radius: 30px;
+      padding: 5px 10px;
+    }
+  }
+}
+
+// Utility  carusel yellow 
+.yellow-cards{
+  a{
+    text-decoration: none;
+    color: #333;
+    &:hover{
+      color: #333;
+    }
+  }
+  .yellow-card{
+    position: relative;
+    img{
+      width: 100%;
+      height: 15vh;
+    }
+    h6:hover{
+      color: #233A95;
+    }
+    p{color: green;}
+    .star{color: gold;}
+    .gray-star{color: gray;}
+    .yellow-btn{
+      margin-top: 2%;
+      padding:5px 10px;
+      margin-left: 20%;
+      border-radius: 30px;
+      background-color: rgb(255, 157, 0);
+      color: #fff;
+      border: none;
+      outline: none;
+    }
+    .yellow-card-discount{
+      position: absolute;
+      top:2%;
+      left:2%;
+      background: rgb(0, 225, 255);
+      padding: 3px 10px;
+      border-radius: 10px;
+      color: #fff;
+    }
+    .yellow-card-recomended{
+      position: absolute;
+      background-color: gray;
+      color: #fff;
+      padding: 3px 10px;
+      top: 12%;
+      border-radius: 10px;
+    }
+    .yellow-card-organic{
+      position: absolute;
+      background-color: greenyellow;
+      color: green;
+      padding: 3px 10px;
+      top: 12%;
+      border-radius: 20px;
+    }
+    .heart-wide {
+      position: absolute;
+      top: 15px;
+      left: 80%;
+      opacity: 0;
+      transform: translateX(100%);
+      transition: all 1s;
+      .wider-screen {
+        padding: 2px 4px;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+      .heart {
+        padding: 2px 4px;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 50%;
+      }
+    }
+    &:hover .add-card {
+      opacity: 1;
+      z-index: 2;
+    }
+    &:hover .heart-wide {
+      opacity: 1;
+      transform: translateX(70%);
+    }
+  }
+}
 // Utilities
 .line-through {
   text-decoration: line-through;

@@ -281,17 +281,17 @@ header .navbar-background li:hover a:hover {
   display: none !important;
 }
 
-#carusel .owl-carusel {
+#carusel .owl-carusel-store {
   position: relative;
 }
 
-#carusel .owl-carusel .owl-nav {
+#carusel .owl-carusel-store .owl-nav {
   position: absolute;
   top: 40%;
   width: 100%;
 }
 
-#carusel .owl-carusel .owl-left {
+#carusel .owl-carusel-store .owl-left {
   float: left;
 }
 
@@ -307,6 +307,11 @@ header .navbar-background li:hover a:hover {
   background-color: white !important;
   width: 40px !important;
   border-radius: 50% !important;
+}
+
+.owl-prev:hover {
+  opacity: 0.8;
+  color: #333;
 }
 
 .owl-prev span {
@@ -325,6 +330,11 @@ header .navbar-background li:hover a:hover {
   background-color: white !important;
   width: 40px !important;
   border-radius: 50% !important;
+}
+
+.owl-next:hover {
+  opacity: 0.8;
+  color: #333;
 }
 
 .owl-next span {
@@ -582,6 +592,204 @@ header .navbar-background li:hover a:hover {
   padding: 0px 5px;
   height: 7%;
   border-radius: 5px;
+}
+
+#cookie-cream a {
+  text-decoration: none;
+  color: #333;
+}
+
+#cookie-cream a:hover {
+  color: #333;
+}
+
+#cookie-cream .col-lg-cookie {
+  position: relative;
+  width: 50.4%;
+  border-radius: 5px;
+  margin-left: -1%;
+}
+
+#cookie-cream .col-lg-cookie img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+#cookie-cream .col-lg-cookie .cookie-text {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+#cookie-cream .col-lg-cookie .cookie-text p {
+  color: #233a95;
+}
+
+#cookie-cream .col-lg-cookie .cookie-text h5 {
+  color: #233a95;
+}
+
+#cookie-cream .col-lg-cookie .cookie-text h6 {
+  color: red;
+}
+
+#cookie-cream .col-lg-cookie button {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #233A95;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+#carusel-products .owl-dot {
+  display: none;
+}
+
+#carusel-products .owl-prev,
+#carusel-products .owl-next {
+  border: 1px solid #c7c7c7;
+}
+
+#carusel-products .owl-prev:hover,
+#carusel-products .owl-next:hover {
+  opacity: 0.8;
+  color: #333;
+}
+
+#carusel-products .owl-prev {
+  margin-left: -1.5% !important;
+}
+
+#carusel-products .owl-next {
+  margin-right: -1.3% !important;
+}
+
+#carusel-products .view-all p {
+  color: #c7c7c7;
+}
+
+#carusel-products .view-all a {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+#carusel-products .view-all button {
+  margin-top: 20%;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #c7c7c7;
+  border-radius: 30px;
+  padding: 5px 10px;
+}
+
+.yellow-cards a {
+  text-decoration: none;
+  color: #333;
+}
+
+.yellow-cards a:hover {
+  color: #333;
+}
+
+.yellow-cards .yellow-card {
+  position: relative;
+}
+
+.yellow-cards .yellow-card img {
+  width: 100%;
+  height: 15vh;
+}
+
+.yellow-cards .yellow-card h6:hover {
+  color: #233A95;
+}
+
+.yellow-cards .yellow-card p {
+  color: green;
+}
+
+.yellow-cards .yellow-card .star {
+  color: gold;
+}
+
+.yellow-cards .yellow-card .gray-star {
+  color: gray;
+}
+
+.yellow-cards .yellow-card .yellow-btn {
+  margin-top: 2%;
+  padding: 5px 10px;
+  margin-left: 20%;
+  border-radius: 30px;
+  background-color: #ff9d00;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+.yellow-cards .yellow-card .yellow-card-discount {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  background: #00e1ff;
+  padding: 3px 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.yellow-cards .yellow-card .yellow-card-recomended {
+  position: absolute;
+  background-color: gray;
+  color: #fff;
+  padding: 3px 10px;
+  top: 12%;
+  border-radius: 10px;
+}
+
+.yellow-cards .yellow-card .yellow-card-organic {
+  position: absolute;
+  background-color: greenyellow;
+  color: green;
+  padding: 3px 10px;
+  top: 12%;
+  border-radius: 20px;
+}
+
+.yellow-cards .yellow-card .heart-wide {
+  position: absolute;
+  top: 15px;
+  left: 80%;
+  opacity: 0;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.yellow-cards .yellow-card .heart-wide .wider-screen {
+  padding: 2px 4px;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.yellow-cards .yellow-card .heart-wide .heart {
+  padding: 2px 4px;
+  border: 1px solid #dadada;
+  border-radius: 50%;
+}
+
+.yellow-cards .yellow-card:hover .add-card {
+  opacity: 1;
+  z-index: 2;
+}
+
+.yellow-cards .yellow-card:hover .heart-wide {
+  opacity: 1;
+  -webkit-transform: translateX(70%);
+          transform: translateX(70%);
 }
 
 .line-through {

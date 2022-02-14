@@ -295,10 +295,10 @@ header {
   background-color: white !important;
   width: 40px !important;
   border-radius: 50% !important;
-  &:hover{
+  &:hover {
     opacity: 0.8;
-    color:#333;
-  };
+    color: #333;
+  }
   span {
     display: inline-block;
     margin-top: -10px;
@@ -316,10 +316,10 @@ header {
   background-color: white !important;
   width: 40px !important;
   border-radius: 50% !important;
-  &:hover{
+  &:hover {
     opacity: 0.8;
-    color:#333;
-  };
+    color: #333;
+  }
   span {
     display: inline-block;
     margin-top: -10px;
@@ -492,6 +492,18 @@ header {
 .card-box {
   position: relative;
   border: 1px solid rgba(184, 184, 184, 0.125);
+  .green-stock {
+    color: green;
+  }
+  .card-product-name {
+    color: #233a95;
+  }
+  .card-star {
+    color: gold;
+  }
+  .discount-price {
+    color: red;
+  }
   img {
     width: 100%;
     height: 80%;
@@ -505,7 +517,9 @@ header {
     border-left: 1px solid rgba(184, 184, 184, 0.125);
     border-bottom: 1px solid rgba(184, 184, 184, 0.125);
     border-right: 1px solid rgba(184, 184, 184, 0.125);
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
     a {
       margin-top: -20px;
       display: inline-block;
@@ -536,6 +550,9 @@ header {
       border-radius: 50%;
     }
   }
+  &:hover{
+    border: 1px solid rgba(184, 184, 184, 0.125);
+  }
   &:hover .add-card {
     opacity: 1;
     z-index: 2;
@@ -557,68 +574,77 @@ header {
 }
 
 // Section Ice Cream
-#cookie-cream{
-  a{
+#cookie-cream {
+  a {
     text-decoration: none;
     color: #333;
-    &:hover{
+    &:hover {
       color: #333;
     }
   }
 
-  .col-lg-cookie{
+  .col-lg-cookie {
     position: relative;
     width: 50.4%;
     border-radius: 5px;
     margin-left: -1%;
-    img{
+    img {
       width: 100%;
       height: 100%;
       border-radius: 5px;
     }
-    .cookie-text{
+    .cookie-text {
       position: absolute;
       top: 35%;
       left: 10%;
-      p{color: #233a95;};
-      h5{color: #233a95;};
-      h6{color: red;}
+      p {
+        color: #233a95;
+      }
+      h5 {
+        color: #233a95;
+      }
+      h6 {
+        color: red;
+      }
     }
-    button{
+    button {
       border-radius: 20px;
       outline: none;
       border: none;
-      background-color: #233A95;
+      background-color: #233a95;
       color: #fff;
       padding: 5px 10px;
     }
   }
 }
 // Carusel Products
-#carusel-products{
-  .owl-dot{
+#carusel-products {
+  .owl-dot {
     display: none;
   }
   .owl-prev,
-  .owl-next{
+  .owl-next {
     border: 1px solid rgb(199, 199, 199);
-    &:hover{
+    &:hover {
       opacity: 0.8;
-      color: #333
+      color: #333;
     }
-    
   }
-  .owl-prev{margin-left: -1.5% !important;}
-  .owl-next{margin-right: -1.3% !important;}
-  .view-all{
-    p{
+  .owl-prev {
+    margin-left: -1.5% !important;
+  }
+  .owl-next {
+    margin-right: -1.3% !important;
+  }
+  .view-all {
+    p {
       color: #c7c7c7;
     }
-    a{
+    a {
       color: #c7c7c7;
       text-decoration: none;
     }
-    button{
+    button {
       margin-top: 20%;
       background-color: #fff;
       outline: none;
@@ -629,30 +655,36 @@ header {
   }
 }
 
-// Utility  carusel yellow 
-.yellow-cards{
-  a{
+// Utility  carusel yellow
+.yellow-cards {
+  a {
     text-decoration: none;
     color: #333;
-    &:hover{
+    &:hover {
       color: #333;
     }
   }
-  .yellow-card{
+  .yellow-card {
     position: relative;
-    img{
+    img {
       width: 100%;
       height: 15vh;
     }
-    h6:hover{
-      color: #233A95;
+    h6:hover {
+      color: #233a95;
     }
-    p{color: green;}
-    .star{color: gold;}
-    .gray-star{color: gray;}
-    .yellow-btn{
+    p {
+      color: green;
+    }
+    .star {
+      color: gold;
+    }
+    .gray-star {
+      color: gray;
+    }
+    .yellow-btn {
       margin-top: 2%;
-      padding:5px 10px;
+      padding: 5px 10px;
       margin-left: 20%;
       border-radius: 30px;
       background-color: rgb(255, 157, 0);
@@ -660,16 +692,16 @@ header {
       border: none;
       outline: none;
     }
-    .yellow-card-discount{
+    .yellow-card-discount {
       position: absolute;
-      top:2%;
-      left:2%;
+      top: 2%;
+      left: 2%;
       background: rgb(0, 225, 255);
       padding: 3px 10px;
       border-radius: 10px;
       color: #fff;
     }
-    .yellow-card-recomended{
+    .yellow-card-recomended {
       position: absolute;
       background-color: gray;
       color: #fff;
@@ -677,7 +709,7 @@ header {
       top: 12%;
       border-radius: 10px;
     }
-    .yellow-card-organic{
+    .yellow-card-organic {
       position: absolute;
       background-color: greenyellow;
       color: green;
@@ -714,9 +746,88 @@ header {
     }
   }
 }
+// Cards boxes 5 products 
+#cards-boxes-orange {
+  .save-card {
+    width: 100%;
+    border-radius: 5px;
+    background-color: beige;
+    text-align: center;
+    padding: 5px 0;
+    height: 5%;
+  }
+  .card-box{
+    img{height: 30% !important;}
+    .add-card{
+      height: 30% !important;
+      margin-top: -40%;
+      width: 100%;
+     }
+  }
+}
+
+// Utility 6-pictures
+.pictures-6{
+  border-radius: 5px;
+  position: relative;
+  a{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    &:hover{
+      color:#333;
+    }
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius:5px ;
+  }
+}
+.pictures-6-text{
+  position: absolute;
+  top: 12%;
+  left: 10%;
+  h4{color:rgb(1, 167, 1)}
+  h3{color: #304dc0}
+  p{color:#7c7f8a;}
+  button{
+    outline: none;
+    border: none;
+    background-color: #7c7f8a;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: #fff;
+  }
+}
+.pictures-6-picture{
+  border-radius: 5px;
+  a{
+    font-size: 16px;
+    color: #333;
+    text-decoration: none;
+    &:hover{
+      color:#333;
+    }
+  }
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+}
+.pictures-6-information{
+  p{color: rgb(110, 110, 110);}
+  .comment{color: black;}
+  .italic{font-style: italic;}
+  .author{color: black;}
+}
 // Utilities
 .line-through {
   text-decoration: line-through;
   color: $line-through;
   font-size: 80%;
+}
+.custom-col-lg-5{
+  width: 20%;
 }

@@ -223,6 +223,7 @@ header {
   .li-1 ul {
     position: absolute;
     height: 66vh;
+    background: #fff;
     border: 1px solid rgb(204, 204, 204);
     top: -1vh;
     left: 18vw;
@@ -830,4 +831,82 @@ header {
 }
 .custom-col-lg-5{
   width: 20%;
+}
+
+// Footer
+footer{
+  .subsciption-footer{
+    position: relative;
+    height: 40vh;
+    background-color: #233a95;
+    color: #fff;
+    .second-text{
+      color:rgb(187, 187, 187)
+    }
+    .text-subscription{
+      position: absolute;
+      top:13%;
+    }
+    .email-box-footer{
+      width: 60%;
+      padding: 2px 2px;
+      border-radius: 5px;
+      background-color: #fff;
+      .envelope-email-footer{
+        margin-left: 20px;
+      }
+      i{
+        color:rgb(160, 160, 160);
+      }
+      input{
+        padding: 15px 5px;
+        border: none;
+        outline: none;
+        &:focus{
+          outline: none;
+          border:none;
+        }
+      }
+      .subscribe-button{
+        background-color: #233A95;
+        color: #fff;
+        padding: 5px 5px!important;
+        border-radius: 5px;
+      }
+    }
+  }
+  .discount-pictures-footer{
+    position: absolute;
+    bottom:0;
+    left:50%;
+    width: 40%;
+    height: 70%;
+  }
+
+  // Advantges-company-footer
+  #advantges-company-footer{
+    .advantage-height-footer{
+      height: 20vh;
+      .section-advantage{
+        padding: 20px 30px;
+        .text{
+          border-right: 1px solid #e3e4e9;
+        }
+      }
+    }
+  }
+  #product-list-footer{
+    ul{
+      list-style: none;
+    }
+    a{
+      margin-left: -13%;
+      text-decoration: none;
+      font-size: 14px;
+      color: #e3e4e9;
+      &:hover{
+        color: #e3e4e9;
+      }
+    }
+  }
 }

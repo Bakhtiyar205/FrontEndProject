@@ -1,13 +1,13 @@
-@import "./style.scss";
+@import "./home";
 @import "./variables";
 body{
-    background-color: #eeeeee;
+    background-color: #f0f0f0;
 }
 
-.navbar-background{
-    background-color: #eeeeee !important;
+.navbar-background-home-page{
+    background-color: #f0f0f0 !important;
 }
-button.dropbtn-language{
+button.dropbtn-language-home-page{
     background-color: #eeeeee !important;
 }
 

@@ -1092,10 +1092,55 @@ footer #copyright-policy-payment-footer .payment {
   margin-left: -4%;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+#home .home-account p a {
+  color: #333;
+  text-decoration: none;
 }
-/*# sourceMappingURL=style.css.map */
+
+#home .home-account p a:hover {
+  color: #333;
+}
+
+#login-register .log-register label {
+  display: block;
+}
+
+#login-register .log-register input {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  outline: none;
+  border: none;
+  background-color: #f3f4f7;
+  border-radius: 5px;
+}
+
+#login-register .log-register [type=checkbox] {
+  display: inline !important;
+  width: 20px;
+}
+
+#login-register .log-register [type=button] {
+  width: 20% !important;
+  padding: 10px;
+  background-color: #233A95;
+  color: #fff;
+}
+
+#login-register .log-register .login p a {
+  text-decoration: none;
+  color: #2bbef9;
+}
+
+#login-register .log-register .login p a:hover {
+  color: #2bbef9;
+}
+
+#login-register .log-register .register a {
+  color: red;
+}
+
+#login-register .log-register .register a:hover {
+  color: red;
+}
+/*# sourceMappingURL=login.css.map */

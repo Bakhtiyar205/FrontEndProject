@@ -1,0 +1,62 @@
+@import "./home";
+
+#home{
+    
+    .home-account{
+        p{
+            a{
+                color: #333;
+                text-decoration: none;
+                &:hover{
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+#login-register{
+    .log-register{
+        label{
+            display: block;
+        }
+        input{
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            outline: none;
+            border: none;
+            background-color: #f3f4f7;
+            border-radius: 5px;
+            
+        }
+        [type=checkbox]{
+            display: inline !important;
+            width: 20px;
+        }
+        [type=button]{
+            width: 20% !important;
+            padding: 10px;
+            background-color: $primary-color;
+            color: #fff;
+        }
+        .login{
+            p{
+                a{
+                    text-decoration: none;
+                    color: $secondary-color;
+                    &:hover{
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+        .register{
+            a{
+                color: red;
+                &:hover{
+                    color: red;
+                }
+            }
+        }
+    }
+}

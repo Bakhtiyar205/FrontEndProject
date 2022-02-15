@@ -551,7 +551,7 @@ header {
       border-radius: 50%;
     }
   }
-  &:hover{
+  &:hover {
     border: 1px solid rgba(184, 184, 184, 0.125);
   }
   &:hover .add-card {
@@ -747,7 +747,7 @@ header {
     }
   }
 }
-// Cards boxes 5 products 
+// Cards boxes 5 products
 #cards-boxes-orange {
   .save-card {
     width: 100%;
@@ -757,42 +757,50 @@ header {
     padding: 5px 0;
     height: 5%;
   }
-  .card-box{
-    img{height: 30% !important;}
-    .add-card{
+  .card-box {
+    img {
+      height: 30% !important;
+    }
+    .add-card {
       height: 30% !important;
       margin-top: -40%;
       width: 100%;
-     }
+    }
   }
 }
 
 // Utility 6-pictures
-.pictures-6{
+.pictures-6 {
   border-radius: 5px;
   position: relative;
-  a{
+  a {
     font-size: 16px;
     color: #333;
     text-decoration: none;
-    &:hover{
-      color:#333;
+    &:hover {
+      color: #333;
     }
   }
-  img{
+  img {
     width: 100%;
     height: 100%;
-    border-radius:5px ;
+    border-radius: 5px;
   }
 }
-.pictures-6-text{
+.pictures-6-text {
   position: absolute;
   top: 12%;
   left: 10%;
-  h4{color:rgb(1, 167, 1)}
-  h3{color: #304dc0}
-  p{color:#7c7f8a;}
-  button{
+  h4 {
+    color: rgb(1, 167, 1);
+  }
+  h3 {
+    color: #304dc0;
+  }
+  p {
+    color: #7c7f8a;
+  }
+  button {
     outline: none;
     border: none;
     background-color: #7c7f8a;
@@ -801,27 +809,35 @@ header {
     color: #fff;
   }
 }
-.pictures-6-picture{
+.pictures-6-picture {
   border-radius: 5px;
-  a{
+  a {
     font-size: 16px;
     color: #333;
     text-decoration: none;
-    &:hover{
-      color:#333;
+    &:hover {
+      color: #333;
     }
   }
-  img{
+  img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
   }
 }
-.pictures-6-information{
-  p{color: rgb(110, 110, 110);}
-  .comment{color: black;}
-  .italic{font-style: italic;}
-  .author{color: black;}
+.pictures-6-information {
+  p {
+    color: rgb(110, 110, 110);
+  }
+  .comment {
+    color: black;
+  }
+  .italic {
+    font-style: italic;
+  }
+  .author {
+    color: black;
+  }
 }
 // Utilities
 .line-through {
@@ -829,84 +845,148 @@ header {
   color: $line-through;
   font-size: 80%;
 }
-.custom-col-lg-5{
-  width: 20%;
+.custom-col-lg-5 {
+  @media only screen and (min-width: 1200px){
+    width: 20% !important;
+  }
 }
-
+.container-md-none{
+  padding: 0 ;
+  margin: 0 10px;
+}
 // Footer
-footer{
-  .subsciption-footer{
+footer {
+  .subsciption-footer {
     position: relative;
     height: 40vh;
     background-color: #233a95;
     color: #fff;
-    .second-text{
-      color:rgb(187, 187, 187)
+    .second-text {
+      color: rgb(187, 187, 187);
     }
-    .text-subscription{
+    .text-subscription {
       position: absolute;
-      top:13%;
+      top: 13%;
     }
-    .email-box-footer{
+    .email-box-footer {
       width: 60%;
       padding: 2px 2px;
       border-radius: 5px;
       background-color: #fff;
-      .envelope-email-footer{
+      .envelope-email-footer {
         margin-left: 20px;
       }
-      i{
-        color:rgb(160, 160, 160);
+      i {
+        color: rgb(160, 160, 160);
       }
-      input{
+      input {
         padding: 15px 5px;
         border: none;
         outline: none;
-        &:focus{
+        &:focus {
           outline: none;
-          border:none;
+          border: none;
         }
       }
-      .subscribe-button{
-        background-color: #233A95;
+      .subscribe-button {
+        background-color: #233a95;
         color: #fff;
-        padding: 5px 5px!important;
+        padding: 5px 5px !important;
         border-radius: 5px;
       }
     }
   }
-  .discount-pictures-footer{
+  .discount-pictures-footer {
     position: absolute;
-    bottom:0;
-    left:50%;
+    bottom: 0;
+    left: 50%;
     width: 40%;
     height: 70%;
   }
 
   // Advantges-company-footer
-  #advantges-company-footer{
-    .advantage-height-footer{
+  #advantges-company-footer {
+    .advantage-height-footer {
       height: 20vh;
-      .section-advantage{
+      .section-advantage {
         padding: 20px 30px;
-        .text{
+        .text {
           border-right: 1px solid #e3e4e9;
         }
       }
     }
   }
-  #product-list-footer{
-    ul{
+  #product-list-footer {
+    ul {
       list-style: none;
     }
-    a{
+    a {
       margin-left: -13%;
       text-decoration: none;
       font-size: 14px;
-      color: #e3e4e9;
-      &:hover{
-        color: #e3e4e9;
+      color: #a5a5a5;
+      &:hover {
+        color: #b9b9b9;
       }
+    }
+  }
+  // Contact App Links
+  .phone-footer { 
+    margin-left: 6%;
+    h4 {
+      color: #202435;
+    }
+    span {
+      color: #858585;
+    }
+  }
+  .download-app-footer {
+    line-height: 0;
+    span {
+      font-size: 12px;
+      color: #858585;
+    }
+  }
+  .software-media-footer {
+    .software-footer {
+      a {
+        color: #202435;
+        text-decoration: none;
+        &:hover {
+          color: #202435;
+        }
+      }
+    }
+    .social-media-footer {
+      margin-left: -10%;
+      a {
+        color: #333;
+        text-decoration: none;
+        &:hover {
+          color: #333;
+        }
+      }
+    }
+  }
+  #copyright-policy-payment-footer{
+    .copyright-footer{
+      margin-left: 12.5%;
+      color: #a5a5a5;
+      font-size: 12px;
+    }
+    .terms-footer{
+      margin-left: -4%;
+      color: #a5a5a5;
+      a {
+        color: #a5a5a5;
+        text-decoration: none;
+        &:hover{
+          color: #a5a5a5;
+        }
+      }
+    }
+    .payment{
+      margin-left: -4%;
     }
   }
 }

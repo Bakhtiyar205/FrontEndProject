@@ -1,0 +1,56 @@
+@import "./style.scss";
+@import "./variables";
+body{
+    background-color: #eeeeee;
+}
+
+.navbar-background{
+    background-color: #eeeeee !important;
+}
+button.dropbtn-language{
+    background-color: #eeeeee !important;
+}
+
+.location,
+.mobile,
+.mail{
+    background-color: #c0c0c0;
+    border-radius: 5px;
+    i{
+        color: rgb(0, 89, 255);
+    }
+}
+
+.background-register{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #fff;
+    border-radius: 5px;
+    label{
+
+        display: block;
+    }
+    input{
+        width: 100%;
+        display: block;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        background-color: #dadada;
+        padding: 10px 5px;
+
+    }
+    textarea{
+        width: 100%;
+        background-color: #c0c0c0;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+    }
+    [type=button]{
+        width: 165.5px;
+        height: 46px;
+        padding: 10px 5px;
+        color: #fff;
+        background-color: #233A95;
+    }
+}

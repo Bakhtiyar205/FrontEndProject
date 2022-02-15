@@ -201,6 +201,12 @@ header {
     width: 50%;
     padding: 3%;
     border-radius: 40px;
+    background-color: #2bbef9;
+    border: none;
+    outline: none;
+    &:hover{
+      background-color: #2bbef9;
+    }
   }
 
   .toolgroup-custom ul {
@@ -857,15 +863,15 @@ header {
 // Footer
 footer {
   .subsciption-footer {
-    position: relative;
-    height: 40vh;
+    // position: relative;
+    height: 354px;
     background-color: #233a95;
     color: #fff;
     .second-text {
       color: rgb(187, 187, 187);
     }
     .text-subscription {
-      position: absolute;
+      // position: absolute
       top: 13%;
     }
     .email-box-footer {
@@ -897,9 +903,8 @@ footer {
     }
   }
   .discount-pictures-footer {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
+    // position: absolute;
+    margin-top: 80px;
     width: 40%;
     height: 70%;
   }

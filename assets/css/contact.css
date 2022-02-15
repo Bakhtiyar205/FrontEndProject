@@ -1095,55 +1095,79 @@ footer #copyright-policy-payment-footer .payment {
   margin-left: -4%;
 }
 
-#home .home-account p a {
-  color: #333;
-  text-decoration: none;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-#home .home-account p a:hover {
-  color: #333;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-#login-register .log-register label {
-  display: block;
+body {
+  background-color: #eeeeee;
 }
 
-#login-register .log-register input {
-  display: block;
-  width: 100%;
-  padding: 10px 0;
-  outline: none;
-  border: none;
-  background-color: #f3f4f7;
+.navbar-background {
+  background-color: #eeeeee !important;
+}
+
+button.dropbtn-language {
+  background-color: #eeeeee !important;
+}
+
+.location,
+.mobile,
+.mail {
+  background-color: #c0c0c0;
   border-radius: 5px;
 }
 
-#login-register .log-register [type=checkbox] {
-  display: inline !important;
-  width: 20px;
+.location i,
+.mobile i,
+.mail i {
+  color: #0059ff;
 }
 
-#login-register .log-register [type=button] {
-  width: 20% !important;
-  padding: 10px;
-  background-color: #233A95;
+.background-register {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.background-register label {
+  display: block;
+}
+
+.background-register input {
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: #dadada;
+  padding: 10px 5px;
+}
+
+.background-register textarea {
+  width: 100%;
+  background-color: #c0c0c0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.background-register [type=button] {
+  width: 165.5px;
+  height: 46px;
+  padding: 10px 5px;
   color: #fff;
+  background-color: #233A95;
 }
-
-#login-register .log-register .login p a {
-  text-decoration: none;
-  color: #2bbef9;
-}
-
-#login-register .log-register .login p a:hover {
-  color: #2bbef9;
-}
-
-#login-register .log-register .register a {
-  color: red;
-}
-
-#login-register .log-register .register a:hover {
-  color: red;
-}
-/*# sourceMappingURL=login.css.map */
+/*# sourceMappingURL=contact.css.map */

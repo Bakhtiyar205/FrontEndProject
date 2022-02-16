@@ -1,0 +1,167 @@
+@import "./home";
+@import "./contact";
+
+#cart-cart{
+    .table-product{
+        padding-left: 4px;
+        padding-right: 4px;
+        table{
+            font-size: 14px;
+            tr{
+                th{
+                    color: #c2c2c2;
+                    padding: 10px;
+                }
+                td{
+                    padding: 10px;
+                }
+                border-bottom: 1px solid #c2c2c2;
+            }
+            .prod-img{
+                width: 103px;
+                padding-left: 0 !important;
+            }
+            .prod-name{width: 372px;}
+            .prod-price{
+                width: 75px;
+                color: #c2c2c2;
+            }
+            .prod-quantity{
+                width: 143px;
+                span{
+                    padding: 10px;
+                    border-radius: 50%;
+                    color:#333;
+                    background-color: #dddddd;
+                }
+            }
+            .prod-total{width: 90px;}
+            .prod-remove{
+                width: 33px;
+                padding-right: 0 !important;
+            }
+            width: 98%;
+            a{
+                text-decoration: none;
+                color:#333;
+                a:hover{
+                    color:#333;
+                }
+            }
+        }
+    }
+
+    .input-cart{
+        width: 99%;
+        input{
+            font-size: 14px;
+            padding: 10px 20px;
+        }
+        input::placeholder{
+            color: #c2c2c2;
+        }
+        [type=text]{
+            border: none;
+            outline: none;
+            background-color: #f3f4f7;
+            margin-right: 2px;
+            border-radius: 5px;
+
+        }
+        [type=button]{
+            background-color: #233a95;
+            border: none;
+            outline: none;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .disabled-input{
+            background-color: #f3f4f7;
+            color: #c2c2c2;
+        }
+    }
+
+    .cart-box{
+        width: 320px;
+        height: 416px;
+        padding: 20px;
+        margin: 0 0 0 30px;
+        border: 1px solid #c2c2c2;
+        border-radius: 5px;
+        // H2
+        h2{
+            width: 278px;
+            height: 35px;
+            font-size: 16px;
+            color: #202435;
+            border-bottom: 1px solid #c2c2c2;
+            margin: 0 0 8px;
+            padding: 0 0 15px;
+        }
+        // Table
+        table{
+            color: #202435;
+            .subtotal{
+                width: 102px;
+                height: 41px;
+                padding: 7px 8px 10px;
+            }
+            .price{
+                padding: 7px 4px 10px;
+                text-align: end;
+            }
+            .ship{
+                width: 102px;
+                height: 163px;
+                font-size: 13px;
+                padding: 8px;
+                border: 1px solid #c2c2c2;
+            }
+            .ship-detail{
+                width: 175px;
+                height: 163px;
+                font-size: 16px;
+                padding: 4px;
+                border: 1px solid #c2c2c2;
+                text-align: end;
+            }
+            .total{
+                width: 102px;
+                height: 60px;
+                padding: 20px 8px 10px;
+                font-size: 13px;
+                border-bottom: 1px solid #c2c2c2;
+            }
+            .final-price{
+                width: 175px;
+                height: 60px;
+                font-size: 16px;
+                padding: 20px 4px 10px;
+                text-align: end;
+                font-weight: bold;
+                border-bottom: 1px solid #c2c2c2;
+            }
+        }
+
+        .btn-cart-box{
+            width: 400px;
+            height: 66px;
+            padding: 15px 0 0;
+
+        }
+        
+        .checkout{
+            text-decoration: none;
+            padding: 0 20px;
+            background-color: #ed174a;
+            color: #fff;
+            font-size: 14px;
+            width: 400px;
+            height: 50px;
+            border-radius: 5px;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}

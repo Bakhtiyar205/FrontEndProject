@@ -2,6 +2,7 @@
 @import "./contact";
 
 .blog-img {
+  width: 855px;
   a {
     color: inherit;
     text-decoration: none;
@@ -50,6 +51,7 @@
 
 // Aside Bar
 .aside-bar {
+  // margin-left: 17%;
   width: 300px;
 }
 .search-blog {
@@ -113,5 +115,108 @@
             }
         }
     }
+  }
+}
+
+// Socail Media
+.social-media-blog{
+
+  .social-media-list-blog{
+
+    .social-media-item{
+      // padding: 3px 5px;
+      margin-bottom: -12px;
+      border-radius: 5px;
+      &:hover{
+        opacity: 0.8;
+      }
+      p{
+        padding: 10px;
+        color: #fff;
+      }
+      i{
+        margin-right: 15px;
+      }
+      a{
+        text-decoration: none;
+        color: #fff;
+        &:hover{
+          color: #fff;
+        }
+      }
+    }
+    .facebook{
+      background-color: #3b5998;
+    }
+    .twitter{
+      background-color: #1da1f2;
+    }
+    .pinterest{background-color: #e60023;}
+    .linkedin{background-color: #0077b5;}
+    .reddit{background-color: #ff4500;}
+  }
+}
+// Widget Banner
+.widget-icons-blog{
+  .widget-icon-blog{
+    height: 359px;
+    img{
+      height: 359px;
+      width: 100%;
+    }
+  }
+}
+// Tags
+.tags-blog{
+  div{
+    margin:10px 0;
+  }
+  a{
+    padding: 2px 5px;
+    border: 1px solid rgb(145, 145, 145);
+    color:#333;
+    text-decoration: none;
+    &:hover{
+      color: #333;
+    }
+  }
+}
+.pagenation-blog{
+  a.blog-page{
+    text-decoration: none;
+    color: #fff;
+    background-color: #2bbef9;
+    padding: 10px;
+    border-radius: 50%;
+    a:hover{
+      color: #fff;
+    }
+  }
+  a.blog-page-second{
+    text-decoration: none;
+    padding:10px;
+    color: #333;
+    &:hover{
+      background-color: rgb(192, 192, 192);
+      border-radius: 50%;
+      color:#333;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  .aside-bar {
+    width: 270px;
+    margin-left:80px;
+  }
+
+}
+@media screen and (min-width: 991px) and (max-width: 1199px){
+  .blog-prod-img{
+    width: 600px;
+    img{width: 600px;}
+  }
+  .aside-bar {
+    width: 270px;
   }
 }

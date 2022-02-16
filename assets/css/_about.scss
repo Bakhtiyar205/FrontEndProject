@@ -1,0 +1,307 @@
+@import "./home";
+@import "./contact";
+// About Bacola
+body{
+    background-color: #f0f0f0;
+}
+#about-bacola-img{
+    .about-img-text{
+        position: relative;
+        height: 622px;
+        background-color: black;
+        .about-img{
+            background-color: black;
+            color: #f0f0f0;
+            opacity: 0.4;
+            width: 100%;
+            height: 622px;
+            img{
+                width: 100%;
+                height: 622px;
+            }
+        }
+        .about-first-text{
+            h1{
+                font-size: 60px;
+            }
+            font-size: 30px;
+            position: absolute;
+            top:250px;
+            color: #fff;
+            text-align: center;
+            left: 36%;
+        }
+    }
+}
+// Text
+#text-about{
+    .text-1-1{
+        color:#202435;
+    }
+    .p-left{
+        margin-left: 50px;
+    }
+    h2{
+        width: 50%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+// Person
+#person-text-img{
+    .person-inner-text-img{
+        position: relative;
+        height: 900px;
+    }
+    .person-img{
+        width: 99%;
+        img{
+            width: 100%;
+        }
+    }
+    .person-text{
+        margin-top: 200px;
+    }
+    .person-extra-text{
+        position: absolute;
+        width: 1100px;
+        height: 216px;
+        padding: 60px 15px 60px 100px;
+        top: 700px;
+        left: 200px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+    }
+}
+// Last Text
+#last-texts{
+    .last-text{
+        margin-bottom: 100px;
+    }
+}
+
+// Media Query
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+    
+    #last-texts{
+        .last-text{
+            margin-top: 70px;
+            margin-bottom: 100px;
+        }
+    }
+  }
+  @media screen and (min-width: 991px) and (max-width: 1199px){
+    #about-bacola-img{
+        .about-img-text{
+            position: relative;
+            height: 139px;
+            background-color: black;
+            .about-img{
+                width: 97%;
+                height: 139px;
+                img{
+                    width: 97%;
+                    height: 139px;
+                }
+            }
+            .about-first-text{
+                h1{
+                    font-size: 24px;
+                }
+                font-size: 16px;
+                position: absolute;
+                top:60px;
+                color: #fff;
+                text-align: center;
+                left: 36%;
+            }
+        }
+    }
+
+    #text-about{
+        .text-1-1{
+            color:#202435;
+        }
+        .p-left{
+            margin-left: 0;
+        }
+        h2{
+            width: 92%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+
+    #person-text-img{
+        .person-inner-text-img{
+            position: relative;
+            height: 1400px;
+        }
+        .person-text{
+            width: 95%;
+            margin-top: 10px;
+        }
+        .person-extra-text{
+            position: relative !important;
+            width: 95%;
+            height: 216px;
+            padding: 0;
+            top: 0;
+            left: 0;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+    }
+
+    #last-texts{
+        .last-text{
+            width: 95%;
+            margin-top: 10px !important;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 990px){
+    #about-bacola-img{
+        .about-img-text{
+            position: relative;
+            height: 139px;
+            background-color: black;
+            .about-img{
+                width: 97%;
+                height: 139px;
+                img{
+                    width: 97%;
+                    height: 139px;
+                }
+            }
+            .about-first-text{
+                h1{
+                    font-size: 24px;
+                }
+                font-size: 16px;
+                position: absolute;
+                top:60px;
+                color: #fff;
+                text-align: center;
+                left: 36%;
+            }
+        }
+    }
+
+    #text-about{
+        .text-1-1{
+            color:#202435;
+        }
+        .p-left{
+            margin-left: 0;
+        }
+        h2{
+            width: 92%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+
+    #person-text-img{
+        .person-inner-text-img{
+            position: relative;
+            height: 1500px;
+        }
+        .person-text{
+            width: 95%;
+            margin-top: 10px;
+        }
+        .person-extra-text{
+            position: relative !important;
+            width: 95%;
+            height: 216px;
+            padding: 0;
+            top: 0;
+            left: 0;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+    }
+
+    #last-texts{
+        .last-text{
+            display: none;
+            width: 95%;
+            margin-top: 10px !important;
+            margin-bottom: 20px;
+        }
+    }
+}
+@media screen and (max-width: 767px){
+    #about-bacola-img{
+        .about-img-text{
+            position: relative;
+            height: 139px;
+            background-color: black;
+            .about-img{
+                width: 97%;
+                height: 139px;
+                img{
+                    width: 97%;
+                    height: 139px;
+                }
+            }
+            .about-first-text{
+                h1{
+                    font-size: 24px;
+                }
+                font-size: 16px;
+                position: absolute;
+                top:60px;
+                color: #fff;
+                text-align: center;
+                left: 36%;
+            }
+        }
+    }
+
+    #text-about{
+        .text-1-1{
+            color:#202435;
+        }
+        .p-left{
+            margin-left: 0;
+        }
+        h2{
+            width: 92%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+
+    #person-text-img{
+        .person-inner-text-img{
+            position: relative;
+            height: 1600px;
+        }
+        .person-text{
+            width: 95%;
+            margin-top: 10px;
+        }
+        .person-extra-text{
+            position: relative !important;
+            width: 95%;
+            height: 216px;
+            padding: 0;
+            top: 0;
+            left: 0;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+    }
+
+    #last-texts{
+        .last-text{
+            display: none;
+            width: 95%;
+            margin-top: 10px !important;
+            margin-bottom: 20px;
+        }
+    }
+}

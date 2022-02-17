@@ -1,5 +1,8 @@
 @import "./home";
 @import "./variables";
+body{
+  overflow-x: hidden;
+}
 body {
   background-color: #f7f8fd;
 }

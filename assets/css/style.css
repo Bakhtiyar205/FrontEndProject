@@ -3297,6 +3297,10 @@ footer #copyright-policy-payment-footer .payment {
 }
 
 body {
+  overflow-x: hidden;
+}
+
+body {
   background-color: #f7f8fd;
 }
 
@@ -4700,6 +4704,10 @@ footer #copyright-policy-payment-footer .payment {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 body {
@@ -8122,6 +8130,10 @@ footer #copyright-policy-payment-footer .payment {
 }
 
 body {
+  overflow-x: hidden;
+}
+
+body {
   background-color: #f7f8fd;
 }
 
@@ -10652,6 +10664,10 @@ footer #copyright-policy-payment-footer .payment {
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 body {
@@ -13200,6 +13216,10 @@ footer #copyright-policy-payment-footer .payment {
 }
 
 body {
+  overflow-x: hidden;
+}
+
+body {
   background-color: #f7f8fd;
 }
 
@@ -13568,7 +13588,7 @@ button.dropbtn-language-home-page {
   padding: 10px;
 }
 
-#tab-menu-product [type=checkbox] {
+#tab-menu-product [type="checkbox"] {
   width: 10px;
 }
 
@@ -13576,12 +13596,198 @@ button.dropbtn-language-home-page {
   padding-left: 5px;
 }
 
-#tab-menu-product [type=button] {
+#tab-menu-product [type="button"] {
   padding: 10px;
   border: none;
   outline: none;
-  background-color: #233A95;
+  background-color: #233a95;
   color: #fff;
   width: inherit;
+}
+
+#card-product .card-cursor {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+#card-product .card-cursor:hover {
+  color: #333;
+}
+
+#card-product .card-enlarge {
+  position: relative;
+  width: 18rem;
+  height: 32rem;
+}
+
+#card-product .btn-enlarge {
+  position: absolute;
+  opacity: 0;
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  top: 10px;
+  right: 10px;
+  padding: 0 0 5px 0;
+  color: #2bbef9;
+}
+
+#card-product .btn-enlarge button {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #2bbef9;
+}
+
+#card-product .btn-enlarge button:hover {
+  opacity: 0.8;
+}
+
+#card-product .btn-enlarge i {
+  cursor: pointer;
+}
+
+#card-product .btn-enlarge i:hover {
+  opacity: 0.8;
+}
+
+#card-product .card-text {
+  color: #25d366;
+}
+
+#card-product .card-star {
+  color: gold;
+}
+
+#card-product .card-price {
+  color: #be143c;
+}
+
+#card-product .discount-product {
+  position: absolute;
+  padding: 2px 10px;
+  color: #fff;
+  background-color: #2bbef9;
+  border-radius: 5px;
+  top: 10px;
+  left: 10px;
+}
+
+#card-product .card {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+#card-product .for-border {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+#card-product .add-card-product {
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+  background-color: #fff;
+  visibility: hidden;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  opacity: 0;
+}
+
+#card-product .add-card-product a {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+#card-product .card:hover {
+  border: 1px solid #333;
+}
+
+#card-product .card:hover .for-border {
+  border: none;
+}
+
+#card-product .card:hover .btn-enlarge {
+  opacity: 1;
+  z-index: 2;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+#card-product .card:hover .add-card-product {
+  background-color: #fff;
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+}
+
+#card-product .card:hover .add-card-product a {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.plus-minus-quantity {
+  color: #333;
+  font-size: 30px;
+}
+
+.plus-minus-quantity .text-align-end {
+  text-align: end;
+}
+
+.plus-minus-quantity .text-align-center {
+  text-align: center;
+  margin-top: -5px;
+}
+
+.plus-minus-quantity .plus-minus {
+  color: #969696;
+}
+
+.plus-minus-quantity .plus-minus i {
+  font-size: 40px;
+}
+
+.plus-minus-quantity .plus-minus:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+.button-add-card .btn-add-card {
+  padding: 10px 20px;
+  background-color: #233a95;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+.button-add-card .btn-add-card:hover {
+  opacity: 0.8;
+}
+
+.wishlist-compare-product .wishlist-product a {
+  border: 1px solid #969696;
+  border-radius: 30px;
+  padding: 5px;
+  text-decoration: none;
+  color: #969696;
+}
+
+.wishlist-compare-product .wishlist-product a:hover {
+  color: #969696;
+}
+
+.wishlist-compare-product .compare-product a {
+  text-decoration: none;
+  color: #969696;
+}
+
+.wishlist-compare-product .compare-product a:hover {
+  color: #969696;
 }
 /*# sourceMappingURL=style.css.map */

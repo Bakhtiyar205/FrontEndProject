@@ -283,90 +283,381 @@
             </div>
         </div>
     </header>
+
+
+
+
+
     <!-- Main -->
     <main>
-        <section id="home-login-page">
-            <div class="container-lg pb-lg-4 container pb-4">
-                <div class="home-account">
-                    <p><a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span
-                            style="color: #8f95ac;">Cart</span></p>
-                </div>
-            </div>
-        </section>
-        <section id="cart-cart">
-            <div class="container-xxl mt-xl-5">
-                <div class="row">
-                    <div class="col-xl-8 col-md-12 col-lg-12">
-                        <div class="table-product">
-                            <table>
-                                <tr>
-                                    <th class="prod-img"></th>
-                                    <th class="prod-name">Product</th>
-                                    <th class="prod-price">Price</th>
-                                    <th class="prod-quantity">Quantity</th>
-                                    <th class="prod-total">Subtotal</th>
-                                    <th class="prod-remove"></th>
-                                    <th></th>
-                                </tr>
-                                <tr>
-                                    <td class="prod-img"><a href="#">
-                                        <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/product-image-62-90x90.jpg" alt="">
-                                    </a></td>
-                                    <td class="prod-name"><a href="#">All Natural Italian-Style Chicken Meatballs</a></td>
-                                    <td class="prod-price">7.25</td>
-                                    <td class="prod-quantity"><span class="plus"><i class="fa-solid fa-minus"></i></span> 1 <span class="plus"><i class="fa-solid fa-plus"></i></span></td>
-                                    <td class="prod-total">$7.25</td>
-                                    <td class="prod-remove"><a href="#"><i class="fa-solid fa-x"></i></a></td>
-                                </tr>
-                            </table>
+        <section id="product-detail">
+            <div class="container-xxl">
+                <div class="background-color-product mt-xl-5 mb-xl-5">
+
+                    <!-- Product Title -->
+                    <div class="mt-5">
+                        <div class="product-title">
+                            <h2>All Natural Italian-Style Chicken Meatballs</h2>
+                            <p><span class="product-brands">Brand </span><span class="person-prod-name"> Welch's
+                                </span><span class="star-yellow-product"> <i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><span class="star-gray-product"><i
+                                            class="fa-solid fa-star"></i></span> <span class="review-product"> 1Review
+                                    </span><span class="act-product"> SKU:</span><span class="code-sku"> ZU49VOR</span>
+                            </p>
                         </div>
-                        <div class="input-cart mt-xl-4">
-                            <div class="row">
-                                <div class="col-xxl-10 col-lg-10 col-md-10 col-sm-12">
-                                    <input type="text" placeholder="Coupon Code">
-                                    <input type="button" value="Apply Coupon">
+
+                        <!-- Product Image  -->
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <div class="product-img-slide">
+                                    <!-- Carousel -->
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                                                class="active"><img src="./assets/img/product-image-62.jpg" alt=""></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="1"><img
+                                                    src="./assets/img/product-image2-47.jpg" alt=""></li>
+                                            <li data-target="#carouselExampleIndicators" data-slide-to="2"><img
+                                                    src="./assets/img/product-image3-35.jpg" alt=""></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <div class="img-text-product">
+                                                    <img src="./assets/img/product-image-62.jpg" class="d-block w-100"
+                                                        alt="...">
+                                                        <div>
+                                                            <p class="discount">23%</p>
+                                                            <p class="recommend">Recommended</p>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="img-text-product">
+                                                    <img src="./assets/img/product-image2-47.jpg" class="d-block w-100"
+                                                        alt="...">
+                                                        <div class="discount-recommend">
+                                                            <p class="discount">23%</p>
+                                                            <p class="recommend">Recommended</p>
+                                                        </div>    
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="img-text-product">
+                                                    <img src="./assets/img/product-image3-35.jpg" class="d-block w-100"
+                                                        alt="...">
+                                                    <div class="discount-recommend">
+                                                        <p class="discount">23%</p>
+                                                        <p class="recommend">Recommended</p>
+                                                    </div>    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <button class="carousel-control-prev" type="button"
+                                            data-target="#carouselExampleIndicators" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </button> -->
+                                        <!-- <button class="carousel-control-next" type="button"
+                                            data-target="#carouselExampleIndicators" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </button> -->
+                                    </div>
                                 </div>
-                                <div class="col-xxl-2 col-lg-2 col-md-2 col-sm-12">
-                                    <input type="button" value="Update cart" class="disabled-input">
+                            </div>
+                            <!-- Product Detail -->
+                            <div class="col-xl-8">
+                                <div class="row">
+                                    <!-- Product Detail -->
+                                    <div class="col-xl-7">
+                                        <div class="product-price-product">
+                                            <h4><span class="line-through">9.35 </span><span class="text-danger">
+                                                    7.35</span></h4>
+                                            <p><span class="text-discount">In Stock</span></p>
+                                            <p class="product-detail-product">
+                                                Vivamus adipiscing nisl ut dolor dignissim semper. Nulla luctus
+                                                malesuada
+                                                tincidunt. Class aptent taciti sociosqu ad litora torquent
+                                            </p>
+                                            <!-- Plus Minus Quantity -->
+                                            <div class="product-quantity-compare-product">
+                                                <div class="row">
+                                                    <div class="col-xl-6">
+                                                        <div class="plus-minus-quantity">
+                                                            <div class="row">
+                                                                <div class="col-xl-4">
+                                                                    <div class="text-align-end">
+                                                                        <span class="plus-minus minus"><i
+                                                                                class="fa-solid fa-circle-minus"></i>
+                                                                        </span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-4">
+                                                                    <div>
+                                                                        <div class="text-align-center">1</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-4">
+                                                                    <span class="plus-minus plus"><i
+                                                                            class="fa-solid fa-circle-plus"></i></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6">
+                                                        <div class="button-add-card">
+                                                            <input type="button" value="Add to Card"
+                                                                class="btn-add-card">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Wishlist Compare -->
+                                                <div class="mt-xl-5">
+                                                    <div class="wishlist-compare-product">
+                                                        <div class="row">
+                                                            <!-- Wishlist -->
+                                                            <div class="col-xl-6">
+                                                                <div class="wishlist-product">
+                                                                    <a href="#">
+                                                                        <i class="fa-solid fa-heart-crack"></i>
+                                                                        Add To Wishlist
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Compare -->
+                                                            <div class="col-xl-6">
+                                                                <div class="compare-product">
+                                                                    <a href="#">
+                                                                        <i class="fa-solid fa-up-down"></i>
+                                                                        Compare
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Product Organic MFG Life -->
+                                                <div class="mt-xl-5 pb-xl-3 border-bottom">
+                                                    <div class="organic-mfg-life-product">
+                                                        <div class="organic-product">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            TYPE: Organic
+                                                        </div>
+                                                        <div class="mfg-product">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            MFG: Jun 4.2021
+                                                        </div>
+                                                        <div class="life-product">
+                                                            <i class="fa-solid fa-check"></i>
+                                                            LIFE: 30 days
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Category Tags -->
+                                                <div class="mt-xl-3">
+                                                    <div class="category-tags-product">
+                                                        <!-- Category -->
+                                                        <div class="category-product">
+                                                            <span class="gray-tags">Category: </span>
+                                                            Meats & Seafood
+                                                        </div>
+                                                        <!-- Tags -->
+                                                        <div class="tags-product">
+                                                            <span class="gray-tags">Tags: </span>
+                                                            chicken, natural, organic
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Social Media -->
+                                                <div class="social-media-product mt-xl-5">
+                                                    <i class="fa-brands fa-facebook facebook"></i>
+                                                    <i class="fa-brands fa-twitter twitter"></i>
+                                                    <i class="fa-brands fa-pinterest pinterest"></i>
+                                                    <i class="fa-brands fa-linkedin linkedin"></i>
+                                                    <i class="fa-brands fa-reddit reddit"></i>
+                                                    <i class="fa-brands fa-whatsapp-square whatsapp"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Covid Info Gurantee Delviering -->
+                                    <div class="col-xl-5">
+                                        <div class="mb-xl-2">
+                                            <div class="covid-19-red-product">
+                                                Covid-19 Info: We Keep Delivering.
+                                            </div>
+                                            <!-- Shipping Guranteed Return -->
+                                            <div class="mt-xl-2">
+                                                <div class="shipping-guranteed-return">
+                                                    <!-- Shipping -->
+                                                    <div class="shipping sgr">
+                                                        <i class="fa-solid fa-truck-fast"></i>
+                                                        Free Shipping apply to all orders over $100
+                                                    </div>
+                                                    <!-- Guranteed -->
+                                                    <div class="guranteed sgr">
+                                                        <i class="fa-solid fa-industry"></i>
+                                                        Guranteed 100% Organic from natural farmas
+                                                    </div>
+                                                    <!-- Return -->
+                                                    <div class="retunr sgr">
+                                                        <i class="fa-solid fa-dollar-sign"></i>
+                                                        1 Day Returns if you change your mind
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Card Payment -->
-                    <div class="col-xl-4 col-md-12 col-lg-12">
-                        <div class="cart-box">
-                            <h2>Card Totals</h2>
-                            <table>
-                                <tr>
-                                    <th class="subtotal">Subtotal</th>
-                                    <td class="price">$7.25</td>
-                                </tr>
-                                <tr>
-                                    <th class="ship">Shipping</th>
-                                    <td class="ship-detail">
-                                       <p>Flat rate: <span>$5</span> <input type="radio"></p>
-                                       <p>Free shipping: <input type="radio"></p>
-                                       <p>Local pickup: <input type="radio"></p>
-                                         <p>Shipping to <b>Al</b></p>
+                </div>
+            </div>
+        </section>
 
-                                        <p class="mt-xl-1"><a href="#">Change Adress</a></p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th class="total">Total</th>
-                                    <td class="final-price">$7.25</td>
-                                </tr>
-                            </table>
-                            <div class="btn-cart-box">
-                                <a href="#" class="checkout">Procced to Checkout</a>
+        <!-- Tab Menu -->
+        <section id="tab-menu-product">
+            <div class="container-xl">
+                <div class="background-color-product">
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                                aria-controls="nav-home" aria-selected="true">Description</a>
+                            <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                                aria-controls="nav-profile" aria-selected="false">Additional Information</a>
+                            <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                                aria-controls="nav-contact" aria-selected="false">Review(1)</a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <!-- Tab Menu 1 -->
+                            <div class="p-5">
+                                Quisque varius diam vel metus mattis, id aliquam diam rhoncus. Proin vitae magna in dui
+                                finibus malesuada et at nulla. Morbi elit ex, viverra vitae ante vel, blandit feugiat
+                                ligula. Fusce fermentum iaculis nibh, at sodales leo maximus a. Nullam ultricies sodales
+                                nunc, in pellentesque lorem mattis quis. Cras imperdiet est in nunc tristique lacinia.
+                                Nullam aliquam mauris eu accumsan tincidunt. Suspendisse velit ex, aliquet vel ornare
+                                vel, dignissim a tortor.
+
+                                Morbi ut sapien vitae odio accumsan gravida. Morbi vitae erat auctor, eleifend nunc a,
+                                lobortis neque. Praesent aliquam dignissim viverra. Maecenas lacus odio, feugiat eu nunc
+                                sit amet, maximus sagittis dolor. Vivamus nisi sapien, elementum sit amet eros sit amet,
+                                ultricies cursus ipsum. Sed consequat luctus ligula. Curabitur laoreet rhoncus blandit.
+                                Aenean vel diam ut arcu pharetra dignissim ut sed leo. Vivamus faucibus, ipsum in
+                                vestibulum vulputate, lorem orci convallis quam, sit amet consequat nulla felis pharetra
+                                lacus. Duis semper erat mauris, sed egestas purus commodo vel.
+                            </div>
+                        </div>
+                        <!-- Tab Menu 2 -->
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="p-5">
+                                <table>
+                                    <tr>
+                                        <th>Brands</th>
+                                        <td>Welch's</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- Tab Menu 3 -->
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="p-5">
+                                <h2>1 REVIEW FOR ALL NATURAL ITALIAN-STYLE CHICKEN MEATBALLS</h2>
+                                <div class="admin-info mt-3">
+                                    <div class="row">
+                                        <div class="col-1">
+                                            <div class="img-female">
+                                                <img src="https://secure.gravatar.com/avatar/3384f98a21c5dce2051e8f5a20928b05?s=60&d=mm&r=g"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-11">
+                                            <div class="star">
+                                                <span class="star-yellow">
+                                                    <i class="fa-solid fa-star"></i>
+                                                </span>
+                                                <span class="star-yellow">
+                                                    <i class="fa-solid fa-star"></i>
+                                                </span>
+                                                <span class="star-yellow">
+                                                    <i class="fa-solid fa-star"></i>
+                                                </span>
+                                                <span class="star-yellow">
+                                                    <i class="fa-solid fa-star"></i>
+                                                </span>
+                                                <span class="star-gray">
+                                                    <i class="fa-solid fa-star"></i>
+                                                </span>
+                                            </div>
+                                            <div class="admin">
+                                                admin - <span class="star-gray">May 1, 2021</span>
+                                            </div>
+                                            <div class="text">
+                                                Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                                doloremque laudantium.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Add a review -->
+                                <h5 class="mt-4 border-bottom pb-3">Add a Review</h5>
+                                <!-- Form for mailing -->
+                                <form action="">
+                                    <p class="mt-2 mb-2">Your email address will not be published. Required fields are
+                                        marked *</p>
+                                    <p class="mt-2 mb-1">Your rating *</p>
+                                    <!-- Rating Star -->
+                                    <p>
+                                        <span class="rate-star "><i class="fa-solid fa-star"></i></span>
+                                        <span class="rate-star star-padding">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="rate-star star-padding">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="rate-star star-padding">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span>
+                                        <span class="star-padding">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span>
+                                    </p>
+                                    <p class="mt-2 mb-2">Your Review *</p>
+                                    <textarea name="" id="" cols="30" rows="10" class="mb-3"></textarea>
+                                    <label for="">Name *</label>
+                                    <input type="text" class="mb-2">
+                                    <label for="">Email *</label>
+                                    <input type="mail" class="mb-2">
+                                    <input type="checkbox"><span class="checkbox-text">Save my name, email, and website
+                                        in this browser for the next time I comment.</span>
+                                    <p class="mt-3">
+                                        <input type="button" value="Submit">
+                                    </p>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
+
+
+
+
 
 
 

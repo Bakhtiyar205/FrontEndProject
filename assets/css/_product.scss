@@ -1,0 +1,295 @@
+@import "./home";
+@import "./contact";
+
+
+// Product Detail
+#product-detail{
+
+    .background-color-product{
+        background-color: #fff;
+        padding: 5px 10px 10px 10px;
+        border-radius: 5px;
+    }
+      .product-title {
+        .product-brands {
+          color: rgb(218, 218, 218);
+        }
+        .person-prod-name {
+          color: #333;
+        }
+        .star-yellow-product {
+          color: gold;
+        }
+        .star-gray-product {
+          color: rgb(218, 218, 218);
+        }
+        .act-product {
+          color: rgb(218, 218, 218);
+        }
+        .review-product {
+          color: #333;
+        }
+        .code-sku {
+          color: #333;
+        }
+      }
+      // Carosuel
+    .carousel-indicators{
+        li{
+            border: 1px solid rgba(151, 151, 151, 0.5);
+            border-radius: 5px;
+            margin-right: 10px;
+            height: 65px;
+            width: 65px;
+        }
+        li.active{
+            border:1px solid blue
+        }
+        img{
+            height: 60px;
+            width: 60px;
+        }
+    }
+    .carousel-inner{
+        img{
+            margin-bottom: 50px;
+        }
+    }
+// Discount Recommend
+    .img-text-product{
+        position: relative;
+        div{
+            position: absolute;
+            top: 30px;
+            left: 0;
+            .discount{
+                width:40px;
+                color: #fff;
+                background-color: #1da1f2;
+                border-radius: 5px;
+                padding: 5px;
+            }
+            .recommend{
+                color: #fff;
+                background-color: gray;
+                border-radius: 5px;
+                padding: 5px;
+            }
+        }
+    }
+    
+    // Utility
+    .text-discount {
+      border-radius: 30px;
+      background: linear-gradient(to right, #33ff99 0%, transparent 100%);
+      padding: 5px;
+      color: green;
+    }
+    
+    .product-detail-product {
+      color: #3e445a;
+    }
+    // Quantity Plus Minus
+    .plus-minus-quantity {
+        // margin-left: -40px;
+        .text-align-end{text-align: end;}
+        .text-align-center{
+            text-align: center;
+            margin-top: -5px;
+        }
+      .plus-minus {
+          i{
+              font-size: 40px;
+          }
+        // background-color: rgb(196, 196, 196);
+        color: rgb(150, 150, 150);
+        &:hover {
+          color: gold;
+          cursor: pointer;
+        }
+      }
+      color: #333;
+      font-size: 30px;
+      // .plus{
+      //     margin-left:2px;
+      // }
+      // .minus{
+      //     margin-right:2px;
+      // }
+    }
+    // Add To Cart
+    .button-add-card {
+      .btn-add-card {
+        padding: 10px 20px;
+        background-color: #233a95;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+    
+    // Whishlist Compare
+    .wishlist-compare-product {
+      .wishlist-product {
+        a {
+          border: 1px solid rgb(150, 150, 150);
+          border-radius: 30px;
+          padding: 5px;
+          text-decoration: none;
+          color: rgb(150, 150, 150);
+          &:hover {
+            color: rgb(150, 150, 150);
+          }
+        }
+      }
+      .compare-product {
+        a {
+          text-decoration: none;
+          color: rgb(150, 150, 150);
+          &:hover {
+            color: rgb(150, 150, 150);
+          }
+        }
+      }
+    }
+    
+    // Product Organic MFG Life
+    .organic-mfg-life-product {
+      i {
+        color: rgb(0, 190, 0);
+        margin-right: 10px;
+      }
+      color: rgb(150, 150, 150);
+    }
+    
+    // Covid Information
+    .covid-19-red-product {
+      padding: 5px 20px;
+      background-color: #ffeef2;
+      color: #be143c;
+      text-align: center;
+      border-radius: 5px;
+    }
+    
+    .shipping-guranteed-return{
+        padding: 5px;
+        background-color: #f7f8fd;
+        color: #333;
+        border-radius: 5px;
+        .sgr{
+            padding: 10px;
+        }
+        
+    }
+    
+    // Category Tags
+    .category-tags-product{
+        font-size: 14px;
+        color:rgb(150, 150, 150);
+        .gray-tags{
+            color:#adb0bb;
+        }
+    }
+    // Social Media
+    .social-media-product{
+        i{
+            border-radius: 50%;
+            font-size: 30px;
+        }
+        .facebook{color:#3b5998;}
+        .twitter{color:#1da1f2}
+        .pinterest{color:#e60023}
+        .linkedin{color:#0077b5}
+        .reddit{color:#ff4500}
+        .whatsapp{color:#25d366}
+    }
+}
+
+
+// Tab Menu
+#tab-menu-product{
+    .nav-background{background-color: #fff;}
+    .nav-tab{color: rgb(158, 158, 158)}
+    .acive{color:#333 !important; }
+    // .nav-link{color:rgb(172, 172, 172)}
+    .tab-pane{
+        table{
+            width: 100%;
+            tr{
+                border: 1px solid rgb(214, 205, 205);
+                padding: 10px;
+            }
+            th{
+                border-right: 1px solid rgb(206, 205, 214);
+                padding: 10px;
+            }
+            td{
+                padding: 10px;
+            }
+        }
+    }
+    .background-color-product{
+        background-color: #fff;
+        padding: 5px 10px 10px 10px;
+        border-radius: 5px;
+    }
+
+    // Admin info
+    .admin-info{
+        .img-female{
+            text-align: center;
+            img{border-radius: 50%;}
+        }
+        .star-yellow{color:gold}
+        .star-gray{color:gray}
+    }
+    .rate-star{
+        padding-right: 20px;
+        border-right: 1px solid gray;
+        &:hover{
+            color:gold;
+            cursor: pointer;
+        }
+    }
+    .star-padding{
+        padding-left: 10px;
+        &:hover{
+            color: gold;
+            cursor: pointer;
+        }
+    }
+    textarea{
+        width: 100%;
+        background-color: rgb(216, 216, 216);
+        border-radius: 5px;
+        outline: none;
+        border: none;
+    }
+    input{
+        border-radius: 5px;
+        width: 100%;
+        border: none;
+        outline:none;
+        background-color: rgb(216, 216, 216);
+        padding: 10px;
+    }
+    [type=checkbox]{
+        width: 10px;
+    }
+    .checkbox-text{
+        padding-left: 5px;
+    }
+    [type=button]{
+        padding: 10px;
+        border: none;
+        outline: none;
+        background-color: #233A95;
+        color:#fff;
+        width: inherit;
+    }
+}
+

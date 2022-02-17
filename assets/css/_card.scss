@@ -83,7 +83,7 @@
 
     .cart-box{
         width: 320px;
-        height: 416px;
+        height: 430px;
         padding: 20px;
         margin: 0 0 0 30px;
         border: 1px solid #c2c2c2;
@@ -152,7 +152,7 @@
         
         .checkout{
             text-decoration: none;
-            padding: 0 20px;
+            padding: 10px 75px;
             background-color: #ed174a;
             color: #fff;
             font-size: 14px;
@@ -164,4 +164,100 @@
             }
         }
     }
+}
+
+
+// Media Query
+// @media screen and (min-width: 1200px) and (max-width: 1399px){
+    
+  
+//   }
+
+@media screen and (min-width: 992px) and (max-width:1199px) {
+    .input-cart{
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .cart-box{
+        width: 930px !important;
+        height: 430px !important;
+        margin-top: 10px !important;
+        margin-left: -1px !important;
+        // H2
+        h2{
+            width: 900px !important;
+        }
+        // Table
+        table{
+            color: #202435;
+            .subtotal{
+                width: 40% !important;
+            }
+            .price{
+                width: 600px !important;
+            }
+    }
+    
+}
+}
+@media screen and (min-width: 768px) and (max-width: 990px){
+    .input-cart{
+        margin-top: 5px;
+    }
+    .cart-box{
+        width: 690px !important;
+        height: 430px !important;
+        margin-top: 10px !important;
+        margin-left: -1px !important;
+        // H2
+        h2{
+            width: 650px !important;
+        }
+        // Table
+        table{
+            color: #202435;
+            .subtotal{
+                width: 40% !important;
+            }
+            .price{
+                width: 600px !important;
+            }
+    }
+    
+}
+}
+   
+@media screen and (max-width: 767px){
+    
+    span{
+        padding: 2px !important;
+    }
+    .input-cart{
+        margin-top: 5px;
+        input{
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    .cart-box{
+        width: 510px !important;
+        height: 430px !important;
+        margin-top: 10px !important;
+        margin-left: -1px !important;
+        // H2
+        h2{
+            width: 480px !important;
+        }
+        // Table
+        table{
+            color: #202435;
+            .subtotal{
+                width: 40% !important;
+            }
+            .price{
+                width: 600px !important;
+            }
+    }
+    
+}
 }

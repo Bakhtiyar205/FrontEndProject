@@ -30,6 +30,25 @@ $(document).ready(function () {
     },
   });
 
+  // Side bar Click Event
+  $(".fa-plus").click(function(){
+    $(this).toggleClass("fa-plus");
+    $(this).toggleClass("fa-minus");
+    $(this).parent().parent().next().toggleClass("d-block");
+    if($(".product-category").css("height")>"232px"){
+      $(".product-category").css("overflow-y","scroll");
+    }else{
+      $(".product-category").css("overflow-y","auto")
+    }
+  })
+
+  $(".sort-shop").click(function(){
+    $(this).parent().next().toggleClass("d-block");
+  })
+  $(".color-show-shop").click(function(){
+    $(this).next().toggleClass("d-block");
+  })
+
   var clock = $(".clock").FlipClock({
     clockFace: "DailyCounter",
     autoStart: false,

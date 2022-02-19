@@ -1,0 +1,341 @@
+@import "./home";
+@import "./contact";
+
+#main-shop{
+    .home-account{
+        p{
+            a{
+                color: #333;
+                text-decoration: none;
+                &:hover{
+                    color: #333;
+                }
+            }
+        }
+    }
+    // Scroll
+    .product-category{
+        height: 232px !important;
+
+        &::-webkit-scrollbar {
+            width: 5px;
+          }
+           
+          &::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+          }
+           
+          &::-webkit-scrollbar-thumb {
+            background-color: darkgrey;
+            outline: 1px solid slategrey;
+          }
+        .display-none{display: none;}
+        ul{
+            li{
+                list-style: none;
+                a{ 
+                    text-decoration: none;
+                    color: #71778e;
+                    &:hover{
+                        color: #71778e;
+                    }
+                    i{
+                        color: #333;
+                    }
+                }
+            }
+        }
+        .main-ul-shop{
+            input{
+                cursor: pointer;
+            }
+            margin-left: -30px;
+            transition: all 1s;
+        }
+    }
+
+    .product-status-shop{
+        ul{
+            li{
+                list-style: none;
+                a{ 
+                    text-decoration: none;
+                    color: #71778e;
+                    &:hover{
+                        color: #71778e;
+                    }
+                }
+            }
+        }
+        .main-ul-shop{
+            input{
+                cursor: pointer;
+            }
+            margin-left: -30px;
+            transition: all 1s;
+        }
+    }
+    .brands-shop{
+        ul{
+            li{
+                color: #333;
+                width: 100%;
+                list-style: none;
+                a{ 
+                    text-decoration: none;
+                    color: #71778e;
+                    &:hover{
+                        color: #71778e;
+                    }
+                }
+            }
+        }
+        .main-ul-shop{
+            input{
+                cursor: pointer;
+            }
+            margin-left: -30px;
+            transition: all 1s;
+        }
+    }
+    .side-img-shop{
+        width:300px;
+        height: 369px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // Col - 9
+    // Organic Meals
+    .organic-meals-img-shop{
+        width: 102.8%;
+        border-radius: 5px;
+        position: relative;
+        a{
+            text-decoration: none;
+            color:#333;
+            &:hover{
+                color:#333;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+        .organic-meals-absolute{
+            position: absolute;
+            top:30%;
+            left:30%;
+            h4{
+                color: #202435;
+                font-weight: lighter;
+            }
+            h3{
+                span{
+                    color:rgb(0, 163, 0);
+                }
+            }
+            p{
+                color: #9b9bb4;
+            }
+        }
+    }
+
+   
+    // Grid Line
+    .list-position-shop{
+        width: 102.8%;
+        position: relative;
+        .display-none{
+            display: none;
+        }
+        #ul-grid-1{
+            // border-radius: 5px;
+            z-index: 3;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            width: 200px;
+            position: absolute;
+            left: 65%;
+            top:75%;
+            background-color: #f7f8fd;
+            li{
+                cursor: pointer;
+                color: #233A95;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color:#333;
+                    &:hover{
+                        color:#2bbef9;
+                    }
+                }
+            }
+        }
+
+        #ul-grid-2{
+            z-index: 3;
+            // border-radius: 5px;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+            width: 70px;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            position: absolute;
+            left: 85%;
+            top:75%;
+            background-color: #f7f8fd;
+            li{
+                cursor: pointer;
+                color: #233A95;
+                list-style: none;
+                a{
+                    text-decoration: none;
+                    color:#333;
+                    &:hover{
+                        color:#2bbef9;
+                    }
+                }
+            }
+        }
+    }
+    .grid-style{
+        color: #71778e;
+        i{
+            padding-right: 5px;
+        }
+        .fa-table-cells{color: #333;}
+    }
+    .color-show-shop{
+        cursor: pointer;
+        color: #71778e;
+        span{color:#333}
+    }
+    .sort-shop{
+        cursor: pointer;
+    }
+
+
+
+
+      .width-card-shop{
+          width: 966px;
+          .card-cursor{
+            text-decoration: none;
+            color:#333;
+            font-size: 16px;
+            &:hover{
+              color:#333;
+            }
+          }
+          // Enlarge Photo Modal
+          .card-enlarge{
+            position: relative;
+            width: 15.5rem;
+            height: 21rem;
+          }
+          // Heart Button
+          .btn-enlarge{
+            position: absolute;
+            opacity: 0;
+            transform: translateX(10px);
+            transition: all 0.2s;
+            top:10px;
+            right: 10px;
+            button{
+              border: none;
+              outline: none;
+              background: transparent;
+              color:#2bbef9;
+              &:hover{
+                opacity: 0.8;
+              }
+            }
+            i{
+              cursor: pointer;
+              &:hover{
+                opacity: 0.8;
+              }
+            }
+            padding: 0 0 5px 0;
+            color:#2bbef9;
+          }
+          // Coloring inner Text
+          .card-text{color: #25d366;}
+          .card-star{color:gold}
+          .card-price{color: #be143c}
+          // Margining cards space between
+          .margin-0{
+            // margin-left: -42px !important;
+          }
+        
+          // Discount
+          .discount-product{
+            position: absolute;
+            padding: 2px 10px;
+            color:#fff;
+            background-color: #2bbef9;
+            border-radius: 5px;
+            top:10px;
+            left: 10px;
+        
+          }
+          .card{
+            padding: 0;
+            background-color: transparent;
+            border: none;
+          }
+        
+          .for-border{
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: 5px;
+            background-color: #fff;
+            img{
+                width: 100%;
+                height: 100px;
+            }
+          }
+          .add-card-product {
+            margin-top: -20px;
+            text-align: center;
+            padding-bottom: 5px;
+            width: 100%;
+            background-color: #fff;
+            visibility: hidden;
+            transition: all 0.2s;
+            opacity: 0;
+            a{
+              transform: translateY(10px);
+            }
+          }
+          .card:hover{
+            z-index: 1;
+            //   button{z-index: 3;}
+            border: 1px solid #333;
+            .for-border{
+              border: none;
+            }
+          }
+        
+          .card:hover .btn-enlarge{
+            opacity: 1;
+            z-index: 2;
+            transform: translateX(0);
+          }
+          .card:hover .add-card-product {
+            margin-top: -18px;
+            background-color: #fff;
+            visibility: visible;
+            opacity: 1;
+            z-index: 1;
+            a{
+              transform: translateY(0);
+            }
+          }
+          .margin-hidden{
+              margin-top: -25px;
+          }
+      }
+}

@@ -33,9 +33,9 @@
 
                             <!-- links -->
                             <ul class="d-flex">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">My Account</a></li>
-                                <li><a href="#">Wishlist</a></li>
+                                <li><a href="./about.html">About Us</a></li>
+                                <li><a href="./login.html">My Account</a></li>
+                                <li><a href="./card.html">Wishlist</a></li>
                                 <li><a href="#">Order Tracking</a></li>
                             </ul>
                         </div>
@@ -85,12 +85,14 @@
         <div class="container mt-2">
             <div class="row">
                 <div class="col-lg-2">
-                    <img class="desktop-logo hide-mobile d-lg-block d-md-block d-sm-none"
-                        src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png"
-                        alt="Bacola – Grocery Market and Food Theme" style="width: 100%;">
-                    <img class="mobile-logo hide-desktop d-lg-none d-md-none d-sm-block"
-                        src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo-mobile.png"
-                        alt="Bacola – Grocery Market and Food Theme" style="width: 100%;">
+                    <a href="./index.html">
+                        <img class="desktop-logo hide-mobile d-lg-block d-md-block d-sm-none"
+                            src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo.png"
+                            alt="Bacola – Grocery Market and Food Theme" style="width: 100%;">
+                        <img class="mobile-logo hide-desktop d-lg-none d-md-none d-sm-block"
+                            src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/bacola-logo-mobile.png"
+                            alt="Bacola – Grocery Market and Food Theme" style="width: 100%;">
+                    </a>
                 </div>
                 <div class="col-lg-2">
                     <!-- Button trigger modal -->
@@ -169,8 +171,19 @@
                         <i class="fa-solid fa-user"></i>
                     </div>
                     <p>$0.0</p>
-                    <div class="person-header basket-header">
-                        <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="hover-basket">
+                        <div class="person-header basket-header">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </div>
+                        <div class="hovered-basket d-lg-block d-sm-none">
+                            <div class="text-align-center border-bottom">
+                                <p><i class="fa-solid fa-basket-shopping"></i></p>
+                                <p>
+                                    No Products in the Card
+                                </p>
+                            </div>
+                            We reduce shipping price only to 2.49$
+                        </div>
                     </div>
                 </div>
             </div>

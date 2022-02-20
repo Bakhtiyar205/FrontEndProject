@@ -1,4 +1,4 @@
-@import "./variables";
+@import "../variables/variables";
 // header
 header {
   // Information Covid
@@ -191,9 +191,38 @@ header {
     height: 80%;
   }
   .basket-header {
+    padding: 15px;
     border-color: #ea2b0e;
     background-color: #fad5ce;
     color: #ea2b0e;
+  }
+  .hover-basket{
+    position: relative;
+    cursor: pointer;
+  }
+
+  .hovered-basket{
+    opacity: 0;
+    background-color: white;
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    top:60px;
+    right: 20px;
+    text-align: center;
+    div{
+      padding-top: 40px;
+      height: 180px;
+      i{
+        color:#ea2b0e;
+        font-size: 50px;
+      }
+    }
+  }
+
+  .hover-basket:hover .hovered-basket{
+    opacity: 1;
+    z-index: 2;
   }
 
   //   All Categories

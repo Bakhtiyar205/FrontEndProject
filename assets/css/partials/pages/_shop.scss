@@ -54,6 +54,7 @@
         }
     }
 
+
     .product-status-shop{
         ul{
             li{
@@ -267,9 +268,9 @@
           .card-star{color:gold}
           .card-price{color: #be143c}
           // Margining cards space between
-          .margin-0{
-            // margin-left: -42px !important;
-          }
+        //   .margin-0{
+        //     // margin-left: -42px !important;
+        //   }
         
           // Discount
           .discount-product{
@@ -338,4 +339,65 @@
               margin-top: -25px;
           }
       }
+      a.shop-page{
+        text-decoration: none;
+        color: #fff;
+        background-color: #2bbef9;
+        padding: 10px;
+        border-radius: 50%;
+        a:hover{
+          color: #fff;
+        }
+      }
+      a.shop-page-second{
+        text-decoration: none;
+        padding:10px;
+        color: #333;
+        &:hover{
+          background-color: rgb(192, 192, 192);
+          border-radius: 50%;
+          color:#333;
+        }
+      }
+
+      .range-shop{
+        .slidecontainer {
+            width: 100%;
+          }
+          
+          .slider {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 10px;
+            border-radius: 30px;
+            background: #333;
+            outline: none;
+            opacity: 1;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+          }
+          
+          .slider:hover {
+            opacity: 1;
+          }
+          
+          .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #333;
+            cursor: pointer;
+          }
+          
+          .slider::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            background: #04AA6D;
+            cursor: pointer;
+          }
+      }
 }
+
+

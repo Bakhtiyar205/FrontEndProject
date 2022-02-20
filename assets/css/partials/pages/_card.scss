@@ -1,5 +1,6 @@
 @import "./home";
 @import "./contact";
+@import "../variables/variables";
 
 #cart-cart{
     .table-product{
@@ -164,100 +165,4 @@
             }
         }
     }
-}
-
-
-// Media Query
-// @media screen and (min-width: 1200px) and (max-width: 1399px){
-    
-  
-//   }
-
-@media screen and (min-width: 992px) and (max-width:1199px) {
-    .input-cart{
-        margin-left: 5px;
-        margin-top: 5px;
-    }
-    .cart-box{
-        width: 930px !important;
-        height: 430px !important;
-        margin-top: 10px !important;
-        margin-left: -1px !important;
-        // H2
-        h2{
-            width: 900px !important;
-        }
-        // Table
-        table{
-            color: #202435;
-            .subtotal{
-                width: 40% !important;
-            }
-            .price{
-                width: 600px !important;
-            }
-    }
-    
-}
-}
-@media screen and (min-width: 768px) and (max-width: 990px){
-    .input-cart{
-        margin-top: 5px;
-    }
-    .cart-box{
-        width: 690px !important;
-        height: 430px !important;
-        margin-top: 10px !important;
-        margin-left: -1px !important;
-        // H2
-        h2{
-            width: 650px !important;
-        }
-        // Table
-        table{
-            color: #202435;
-            .subtotal{
-                width: 40% !important;
-            }
-            .price{
-                width: 600px !important;
-            }
-    }
-    
-}
-}
-   
-@media screen and (max-width: 767px){
-    
-    span{
-        padding: 2px !important;
-    }
-    .input-cart{
-        margin-top: 5px;
-        input{
-            width: 100%;
-            margin-top: 10px;
-        }
-    }
-    .cart-box{
-        width: 510px !important;
-        height: 430px !important;
-        margin-top: 10px !important;
-        margin-left: -1px !important;
-        // H2
-        h2{
-            width: 480px !important;
-        }
-        // Table
-        table{
-            color: #202435;
-            .subtotal{
-                width: 40% !important;
-            }
-            .price{
-                width: 600px !important;
-            }
-    }
-    
-}
 }

@@ -1,5 +1,6 @@
 @import "./home";
 @import "./contact";
+@import "../variables/variables";
 
 .blog-img {
   width: 855px;
@@ -209,7 +210,7 @@
     width: 270px;
     margin-left:80px;
   }
-
+  
 }
 @media screen and (min-width: 991px) and (max-width: 1199px){
   .blog-prod-img{

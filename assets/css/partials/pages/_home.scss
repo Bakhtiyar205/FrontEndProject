@@ -1,5 +1,6 @@
 @import "../variables/variables";
 // header
+
 header {
   // Information Covid
   .info-header {
@@ -295,6 +296,9 @@ header {
       }
     }
   }
+  .shop-background-header{
+    width: 500px;
+  }
 }
 // Section Owl
 #carusel {
@@ -523,6 +527,8 @@ header {
   }
 }
 .card-box {
+  width: 16rem;
+  height: 25rem;
   position: relative;
   border: 1px solid rgba(184, 184, 184, 0.125);
   .green-stock {
@@ -1020,4 +1026,794 @@ footer {
       margin-left: -4%;
     }
   }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  html{
+    overflow-x: hidden;
+  }
+  .number{font-size: 10px;}
+  .clock-product-progress {
+    width: 30vw;
+    height: 640px !important;
+    padding: 10px 8px;
+    .clock {
+      position: relative !important;
+      padding-top: 0px;
+      margin-left: -120px;
+      height: 100px;
+      width: 800px;
+    }
+    .product-clock {
+      position: relative;
+      p {
+        color: #c5c5c5;
+        margin-left: 60px;
+      }
+      img {
+        width: 90%;
+        height: 100px;
+      }
+      .discount-product-percentage {
+        top: 7%;
+        left: 8%;
+        font-size: 10px;
+        border-radius: 50%;
+        padding: 5px;
+      }
+    }
+    .progress-aviability {
+      .discount-price {
+        font-size: 12px;
+      }
+      h4 {
+        color: $primary-color;
+        font-size: 15px;
+      }
+    }
+    p{
+      font-size: 10px;
+    }
+  }
+
+  .download-app-footer {
+    span{
+      display: none;
+    }
+}
+.card-box {
+  width: 14rem;
+  height: 25rem;
+  position: relative;
+  border: 1px solid rgba(184, 184, 184, 0.125);
+  .green-stock {
+    color: green;
+  }
+  .card-product-name {
+    color: #233a95;
+  }
+  .card-star {
+    color: gold;
+  }
+  .discount-price {
+    color: red;
+  }
+  img {
+    width: 100%;
+    height: 80%;
+  }
+  .add-card {
+    height: 70%;
+    opacity: 0;
+    transition: all 1s;
+    text-align: center;
+    background-color: #fff;
+    border-left: 1px solid rgba(184, 184, 184, 0.125);
+    border-bottom: 1px solid rgba(184, 184, 184, 0.125);
+    border-right: 1px solid rgba(184, 184, 184, 0.125);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    a {
+      margin-top: -20px;
+      display: inline-block;
+      width: 70%;
+      border-radius: 50px;
+      background-color: #233a95;
+      color: #fff;
+      border: none;
+      outline: none;
+    }
+  }
+  .heart-wide {
+    position: absolute;
+    top: 15px;
+    left: 80%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 1s;
+    .wider-screen {
+      padding: 2px 4px;
+      border: 1px solid rgb(218, 218, 218);
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .heart {
+      padding: 2px 4px;
+      border: 1px solid rgb(218, 218, 218);
+      border-radius: 50%;
+    }
+  }
+  &:hover {
+    border: 1px solid rgba(184, 184, 184, 0.125);
+  }
+  &:hover .add-card {
+    opacity: 1;
+    z-index: 2;
+  }
+  &:hover .heart-wide {
+    opacity: 1;
+    transform: translateX(70%);
+  }
+  .text-cards {
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    padding: 0px 5px;
+    height: 7%;
+    border-radius: 5px;
+  }
+}
+}
+@media screen and (min-width: 991px) and (max-width: 1199px){
+  .discount-pictures-footer {
+    // position: absolute;
+    margin-top: 100px;
+    width: 40%;
+    height: 70%;
+  }
+  .subscribe-button {
+    margin-left: -20px;
+    background-color: #233a95;
+    color: #fff;
+    padding: 2px 2px !important;
+    border-radius: 5px;
+  }
+  .custom-col-lg-5 {
+      width: 30% !important;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+  .clock-product-progress {
+    width: 34vw !important;
+    height: 680px !important;
+    padding: 10px 8px;
+    .clock {
+      position: relative !important;
+      padding-top: 0px;
+      margin-left: -120px;
+      height: 100px !important;
+      width: 400px;
+    }
+    .product-clock {
+      position: relative;
+      p {
+        color: #c5c5c5;
+        margin-left: 60px;
+      }
+      img {
+        width: 90%;
+        height: 100px;
+      }
+      .discount-product-percentage {
+        top: 7%;
+        left: 8%;
+        font-size: 10px;
+        border-radius: 50%;
+        padding: 5px;
+      }
+    }
+    .progress-aviability {
+      .discount-price {
+        font-size: 12px;
+      }
+      h4 {
+        color: $primary-color;
+        font-size: 15px;
+      }
+    }
+    p{
+      font-size: 10px;
+    }
+  }
+
+  .download-app-footer {
+    span{
+      display: none;
+    }
+}
+.card-box {
+  width: 11.8rem !important;
+  height: 25rem;
+  position: relative;
+  border: 1px solid rgba(184, 184, 184, 0.125);
+  font-size: 10px !important;
+  .green-stock {
+    color: green;
+  }
+  .card-product-name {
+    color: #233a95;
+  }
+  .card-star {
+    color: gold;
+  }
+  .discount-price {
+    color: red;
+  }
+  img {
+    width: 100%;
+    height: 80%;
+  }
+  .add-card {
+    height: 70%;
+    opacity: 0;
+    transition: all 1s;
+    text-align: center;
+    background-color: #fff;
+    border-left: 1px solid rgba(184, 184, 184, 0.125);
+    border-bottom: 1px solid rgba(184, 184, 184, 0.125);
+    border-right: 1px solid rgba(184, 184, 184, 0.125);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    a {
+      margin-top: -20px;
+      display: inline-block;
+      width: 70%;
+      border-radius: 50px;
+      background-color: #233a95;
+      color: #fff;
+      border: none;
+      outline: none;
+    }
+  }
+  .heart-wide {
+    position: absolute;
+    top: 15px;
+    left: 80%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 1s;
+    .wider-screen {
+      padding: 2px 4px;
+      border: 1px solid rgb(218, 218, 218);
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .heart {
+      padding: 2px 4px;
+      border: 1px solid rgb(218, 218, 218);
+      border-radius: 50%;
+    }
+  }
+  &:hover {
+    border: 1px solid rgba(184, 184, 184, 0.125);
+  }
+  &:hover .add-card {
+    opacity: 1;
+    z-index: 2;
+  }
+  &:hover .heart-wide {
+    opacity: 1;
+    transform: translateX(70%);
+  }
+  .text-cards {
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    padding: 0px 5px;
+    height: 7%;
+    border-radius: 5px;
+  }
+}
+.subsciption-footer {
+  // position: relative;
+  height: 275px !important;
+  background-color: #233a95;
+  color: #fff;
+  .second-text {
+    color: rgb(187, 187, 187);
+  }
+  .text-subscription {
+    // position: absolute
+    top: 13%;
+  }
+  .email-box-footer {
+    width: 60%;
+    padding: 2px 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    .envelope-email-footer {
+      margin-left: 20px;
+    }
+    i {
+      display: none;
+      color: rgb(160, 160, 160);
+    }
+    input {
+      padding: 15px 5px;
+      border: none;
+      outline: none;
+      &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+    .subscribe-button {
+      background-color: #233a95;
+      color: #fff;
+      padding: 5px 5px !important;
+      border-radius: 5px;
+    }
+  }
+}
+.discount-pictures-footer {
+  // position: absolute;
+  margin-top: 80px !important;
+  width: 40%;
+  height: 70%;
+}
+}
+@media screen and (min-width: 776px) and (max-width: 990px){
+  #product-list-footer {
+    ul {
+      list-style: none;
+    }
+    a {
+      margin-left: 0 !important;
+      text-decoration: none;
+      font-size: 14px;
+      color: #a5a5a5;
+      &:hover {
+        color: #b9b9b9;
+      }
+    }
+  }
+  .discount-pictures-footer {
+    // position: absolute;
+    margin-top: 100px;
+    width: 40%;
+    height: 70%;
+  }
+  .subscribe-button {
+    margin-left: -20px;
+    background-color: #233a95;
+    color: #fff;
+    padding: 2px 2px !important;
+    border-radius: 5px;
+  }
+  .custom-col-lg-5 {
+      width: 50% !important;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+  .clock-product-progress {
+    width: 34vw !important;
+    height: 500px !important;
+    padding: 10px 8px;
+    .clock {
+      display: none !important;
+      position: relative !important;
+      padding-top: 0px;
+      margin-left: -120px;
+      height: 100px !important;
+      width: 200px !important;
+    }
+    .product-clock {
+      position: relative;
+      p {
+        color: #c5c5c5;
+        margin-left: 60px;
+      }
+      img {
+        width: 90%;
+        height: 100px;
+      }
+      .discount-product-percentage {
+        top: 7%;
+        left: 8%;
+        font-size: 10px;
+        border-radius: 50%;
+        padding: 5px;
+      }
+    }
+    .progress-aviability {
+      .discount-price {
+        font-size: 12px;
+      }
+      h4 {
+        color: $primary-color;
+        font-size: 15px;
+      }
+    }
+    p{
+      font-size: 10px;
+    }
+  }
+
+  .download-app-footer {
+    span{
+      display: none;
+    }
+}
+.card-box {
+  width: 11.8rem !important;
+  height: 25rem;
+  position: relative;
+  border: 1px solid rgba(184, 184, 184, 0.125);
+  font-size: 10px !important;
+  .green-stock {
+    color: green;
+  }
+  .card-product-name {
+    color: #233a95;
+  }
+  .card-star {
+    color: gold;
+  }
+  .discount-price {
+    color: red;
+  }
+  img {
+    width: 100%;
+    height: 80%;
+  }
+  .add-card {
+    height: 70%;
+    opacity: 0;
+    transition: all 1s;
+    text-align: center;
+    background-color: #fff;
+    border-left: 1px solid rgba(184, 184, 184, 0.125);
+    border-bottom: 1px solid rgba(184, 184, 184, 0.125);
+    border-right: 1px solid rgba(184, 184, 184, 0.125);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    a {
+      margin-top: -20px;
+      display: inline-block;
+      width: 70%;
+      border-radius: 50px;
+      background-color: #233a95;
+      color: #fff;
+      border: none;
+      outline: none;
+    }
+  }
+  .heart-wide {
+    position: absolute;
+    top: 15px;
+    left: 80%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 1s;
+    .wider-screen {
+      padding: 2px 4px;
+      border: 1px solid rgb(218, 218, 218);
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .heart {
+      padding: 2px 4px;
+      border: 1px solid rgb(218, 218, 218);
+      border-radius: 50%;
+    }
+  }
+  &:hover {
+    border: 1px solid rgba(184, 184, 184, 0.125);
+  }
+  &:hover .add-card {
+    opacity: 1;
+    z-index: 2;
+  }
+  &:hover .heart-wide {
+    opacity: 1;
+    transform: translateX(70%);
+  }
+  .text-cards {
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    padding: 0px 5px;
+    height: 7%;
+    border-radius: 5px;
+  }
+}
+.subsciption-footer {
+  // position: relative;
+  height: 275px !important;
+  background-color: #233a95;
+  color: #fff;
+  .second-text {
+    color: rgb(187, 187, 187);
+  }
+  .text-subscription {
+    // position: absolute
+    top: 13%;
+  }
+  .email-box-footer {
+    width: 60%;
+    padding: 2px 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    .envelope-email-footer {
+      margin-left: 20px;
+    }
+    i {
+      display: none;
+      color: rgb(160, 160, 160);
+    }
+    input {
+      padding: 15px 5px;
+      border: none;
+      outline: none;
+      &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+    .subscribe-button {
+      background-color: #233a95;
+      color: #fff;
+      padding: 5px 5px !important;
+      border-radius: 5px;
+    }
+  }
+}
+.discount-pictures-footer {
+  // position: absolute;
+  margin-top: 80px !important;
+  width: 40%;
+  height: 70%;
+}
+footer{
+  #advantges-company-footer{
+  display: none !important;
+}
+
+.section-advantage {
+  display: none !important;
+  }
+}
+}
+@media screen and (min-width: 556px) and (max-width: 775px){
+  #product-list-footer {
+    ul {
+      list-style: none;
+    }
+    a {
+      margin-left: 0 !important;
+      text-decoration: none;
+      font-size: 14px;
+      color: #a5a5a5;
+      &:hover {
+        color: #b9b9b9;
+      }
+    }
+  }
+  .discount-pictures-footer {
+    // position: absolute;
+    margin-top: 100px;
+    width: 40%;
+    height: 70%;
+  }
+  .subscribe-button {
+    margin-left: -20px;
+    background-color: #233a95;
+    color: #fff;
+    padding: 2px 2px !important;
+    border-radius: 5px;
+  }
+  .custom-col-lg-5 {
+      width: 50% !important;
+  }
+
+  html{
+    overflow-x: hidden;
+  }
+  .clock-product-progress {
+    width: 34vw !important;
+    height: 500px !important;
+    padding: 10px 8px;
+    .clock {
+      display: none !important;
+      position: relative !important;
+      padding-top: 0px;
+      margin-left: -120px;
+      height: 100px !important;
+      width: 200px !important;
+    }
+    .product-clock {
+      position: relative;
+      p {
+        color: #c5c5c5;
+        margin-left: 60px;
+      }
+      img {
+        width: 90%;
+        height: 100px;
+      }
+      .discount-product-percentage {
+        top: 7%;
+        left: 8%;
+        font-size: 10px;
+        border-radius: 50%;
+        padding: 5px;
+      }
+    }
+    .progress-aviability {
+      .discount-price {
+        font-size: 12px;
+      }
+      h4 {
+        color: $primary-color;
+        font-size: 15px;
+      }
+    }
+    p{
+      font-size: 10px;
+    }
+  }
+
+  .download-app-footer {
+    span{
+      display: none;
+    }
+}
+.card-box {
+  width: 11.8rem !important;
+  height: 25rem;
+  position: relative;
+  border: 1px solid rgba(184, 184, 184, 0.125);
+  font-size: 10px !important;
+  .green-stock {
+    color: green;
+  }
+  .card-product-name {
+    color: #233a95;
+  }
+  .card-star {
+    color: gold;
+  }
+  .discount-price {
+    color: red;
+  }
+  img {
+    width: 100%;
+    height: 80%;
+  }
+  .add-card {
+    height: 70%;
+    opacity: 0;
+    transition: all 1s;
+    text-align: center;
+    background-color: #fff;
+    border-left: 1px solid rgba(184, 184, 184, 0.125);
+    border-bottom: 1px solid rgba(184, 184, 184, 0.125);
+    border-right: 1px solid rgba(184, 184, 184, 0.125);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    a {
+      margin-top: -20px;
+      display: inline-block;
+      width: 70%;
+      border-radius: 50px;
+      background-color: #233a95;
+      color: #fff;
+      border: none;
+      outline: none;
+    }
+  }
+  .heart-wide {
+    position: absolute;
+    top: 15px;
+    left: 80%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 1s;
+    .wider-screen {
+      padding: 2px 4px;
+      border: 1px solid rgb(218, 218, 218);
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    .heart {
+      padding: 2px 4px;
+      border: 1px solid rgb(218, 218, 218);
+      border-radius: 50%;
+    }
+  }
+  &:hover {
+    border: 1px solid rgba(184, 184, 184, 0.125);
+  }
+  &:hover .add-card {
+    opacity: 1;
+    z-index: 2;
+  }
+  &:hover .heart-wide {
+    opacity: 1;
+    transform: translateX(70%);
+  }
+  .text-cards {
+    position: absolute;
+    top: 15px;
+    left: 5%;
+    padding: 0px 5px;
+    height: 7%;
+    border-radius: 5px;
+  }
+}
+.subsciption-footer {
+  // position: relative;
+  height: 275px !important;
+  background-color: #233a95;
+  color: #fff;
+  .second-text {
+    color: rgb(187, 187, 187);
+  }
+  .text-subscription {
+    // position: absolute
+    top: 13%;
+  }
+  .email-box-footer {
+    width: 60%;
+    padding: 2px 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    .envelope-email-footer {
+      margin-left: 20px;
+    }
+    i {
+      display: none;
+      color: rgb(160, 160, 160);
+    }
+    input {
+      padding: 15px 5px;
+      border: none;
+      outline: none;
+      &:focus {
+        outline: none;
+        border: none;
+      }
+    }
+    .subscribe-button {
+      background-color: #233a95;
+      color: #fff;
+      padding: 5px 5px !important;
+      border-radius: 5px;
+    }
+  }
+}
+.discount-pictures-footer {
+  display: none !important;
+  // position: absolute;
+  margin-top: 80px !important;
+  width: 40%;
+  height: 70%;
+}
+footer{
+  #advantges-company-footer{
+  display: none !important;
+}
+
+.section-advantage {
+  display: none !important;
+  }
+}
 }
